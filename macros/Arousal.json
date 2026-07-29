@@ -1,0 +1,30 @@
+{
+  "name": "O/////O",
+  "type": "script",
+  "img": "icons/svg/fire.svg",
+  "command": "const targets = Array.from(game.user.targets);\nif (!targets.length) return ui.notifications.warn(\"Please target at least one token!\");\n\n// V13 Modern Input Dialog\nconst data = await foundry.applications.api.DialogV2.input({\nwindow: { title: \"Apply\" },\ncontent: `\n<div class=\"form-group\">\n<label>Edit Arousal</label>\n<div class=\"form-fields\">\n<input type=\"number\" name=\"damage\" step=\"1\" autofocus>\n</div>\n</div>`,\nok: { label: \"Apply\", icon: \"fa-solid fa-burst\" }\n});\n\nif (!data || isNaN(data.damage)) return;\nconst damage = parseInt(data.damage);\n\nfor (let token of targets) {\nconst actor = token.actor;\nconst hpPath = \"system.arousal.value\";\nconst currentHP = foundry.utils.getProperty(actor, hpPath);\n  \nif (currentHP === undefined) {\nconsole.warn(`Plume | ${token.name} does not have arousal defined.`);\ncontinue;\n}\n\nconst newHP = Math.min(10 , currentHP + damage);\nawait actor.update({ [hpPath]: newHP });\n\n// Simple Chat Feedback\nawait ChatMessage.create({\nspeaker: ChatMessage.getSpeaker({ token: token.document }),\ncontent: `\n<div class=\"dice-roll\">\n<div class=\"dice-result\">\n<div class=\"dice-total\" style=\"color: #000000; border: 1px solid #000;\"> ${damage} Arousal </div>\n<div style=\"font-size: 1em; text-align: center;\">\n${currentHP} &rarr; ${newHP}\n</div>\n</div>\n</div>`,\nsound: CONFIG.sounds.dice\n});\n}",
+  "folder": "zQNNODilx59PDCGk",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.Sin0F7kw6aRg7o4K",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774038857551,
+    "modifiedTime": 1774038857551,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

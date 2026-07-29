@@ -1,0 +1,105 @@
+{
+  "PLUME": {
+    "Ability": {
+      "Str": { "long": "Strength", "abbr": "str" },
+      "Vig": { "long": "Vigor", "abbr": "vig" },
+      "Dex": { "long": "Dexterity", "abbr": "dex" },
+      "Mag": { "long": "Magic", "abbr": "mag" },
+      "Fth": { "long": "Faith", "abbr": "fth" }
+    },
+    "SheetLabels": {
+      "Actor": "Plume Actor Sheet",
+      "Item": "Plume Item Sheet"
+    },
+    "Actor": {
+      "Tabs": {
+        "Biography": "Biography",
+        "Features": "Features",
+        "Gear": "Gear",
+        "Spells": "Spells",
+        "Effects": "Effects"
+      },
+      "base": {
+        "FIELDS": {
+          "biography": {"label": "Biography"},
+          "health": {
+            "value": {"label": "Health"},
+            "max": {"label": "Maximum Health"}
+          },
+          "spirit": {
+            "value": {"label": "Spirit"},
+            "max": {"label": "Maximum Spirit"}
+          },
+          "risk": {
+            "value": {"label": "Risk"},
+            "max": {"label": "Maximum Risk"}
+          },
+          "fatigue": {
+            "value": {"label": "Fatigue"},
+            "max": {"label": "Maximum Fatigue"}
+          },
+          "arousal": {
+            "value": {"label": "Arousal"},
+            "max": {"label": "Maximum Arousal"}
+          }
+        }
+      },
+      "Character": {
+        "FIELDS": {
+          "attributes.risk.value": {"label": "Risk"}
+        }
+      },
+      "NPC": {
+        "FIELDS": {
+          "cr": {"label": "CR"}
+        },
+        "xp": {"label": "XP"}
+      }
+    },
+    "Item": {
+      "Tabs": {
+        "gear": "gear",
+        "skills": "skills",
+        "features": "features",
+        "items": "items",
+        "lore": "lore",
+        "stats": "stats"
+      },
+      "Gear": {
+        "FIELDS": {
+          "rollFormula": {"label": "Roll Formula"},
+          "numDice": {"label": "Number of Dice"},
+          "dieSize": {"label": "Die Size"},
+          "rollMod": {"label": "Roll Modifier"},
+          "quantity": {"label": "Quantity"},
+          "weight": {"label": "Weight"}
+        }
+      },
+      "Spell": {
+        "FIELDS": {
+          "level": {"label": "Spell Level"}
+        },
+        "SpellLVL": "Level {level} Spells",
+        "AddLVL": "Add LVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC"
+    },
+    "Item": {
+      "gear": "Gear",
+      "feature": "Feature",
+      "spell": "Spell"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Cum",
+  "type": "script",
+  "img": "icons/svg/acid.svg",
+  "command": "const damageRoll = await new Roll(\"12d12\").evaluate({async: true});\nconst d20Roll = await new Roll(\"1d20x\").evaluate({async: true});\n\n// Count how many 20s were rolled in the explosion chain\nconst critCount = d20Roll.terms[0].results.filter(r => r.result === 20).length;\n\n// Get the character name (fallback to User name if no token selected)\nconst speaker = ChatMessage.getSpeaker();\nconst name = speaker.alias || game.user.name;\n\n// Build the clean string\nlet messageContent = `${name} cums inside for ${damageRoll.total} mL!`;\n\nif (critCount === 1) {\n    messageContent += ` <br><strong>You were impregnated!</strong>`;\n} else if (critCount > 1) {\n    messageContent += ` <br><strong>You were impregnated ${critCount} times!</strong>`;\n}\n\n// Send as a clean emote\nChatMessage.create({\n    speaker: speaker,\n    content: messageContent,\n    type: CONST.CHAT_MESSAGE_TYPES.EMOTE\n});",
+  "folder": "3NYfWfp4A3CEZTkh",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Macro.oPO81Bd0opmFBQqk",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.oPO81Bd0opmFBQqk",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774107887536,
+    "modifiedTime": 1774108300924,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

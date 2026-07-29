@@ -1,0 +1,30 @@
+{
+  "name": "Edit_HP",
+  "type": "script",
+  "img": "icons/svg/heal.svg",
+  "command": "const targets = Array.from(game.user.targets);\nif (!targets.length) return ui.notifications.warn(\"Please target at least one token!\");\n\n// V13 Modern Input Dialog\nconst data = await foundry.applications.api.DialogV2.input({\n  window: { title: \"Edit_HP\" },\n  content: `\n    <div class=\"form-group\">\n      <label>Edit_HP</label>\n      <div class=\"form-fields\">\n        <!-- Changed type to \"text\" to allow lazy math strings -->\n        <input type=\"text\" name=\"hpAdjustment\" placeholder=\"0\" autofocus>\n      </div>\n    </div>`,\n  ok: { label: \"Apply\", icon: \"fa-solid fa-burst\" }\n});\n\n// Check if user cancelled or input is empty\nif (!data || !data.hpAdjustment) return;\n\n// --- LAZY INPUT LOGIC ---\n// Find all numbers including their leading + or -\nconst matches = data.hpAdjustment.match(/[+-]?\\d+/g);\nif (!matches) return ui.notifications.error(\"No valid numbers found in input.\");\n\n// Sum them up\nconst totalAdjustment = matches.reduce((acc, num) => acc + parseInt(num), 0);\n// ------------------------\n\nfor (let token of targets) {\n  const actor = token.actor;\n  const hpPath = \"system.health.value\";\n  const hpMax = \"system.health.max\";\n  const currentHP = foundry.utils.getProperty(actor, hpPath);\n  const maxHP = foundry.utils.getProperty(actor, hpMax);\n  \n  if (currentHP === undefined || maxHP === undefined) {\n    console.warn(`Plume | ${token.name} does not have health defined.`);\n    continue;\n  }\n\n  // Calculate new HP (Clamped between -999 and Max)\n  const newHP = Math.clamp(currentHP + totalAdjustment, -999, maxHP);\n  await actor.update({ [hpPath]: newHP });\n\n  // Simple Chat Feedback\n  await ChatMessage.create({\n    speaker: ChatMessage.getSpeaker({ token: token.document }),\n    content: `\n      <div class=\"dice-roll\">\n        <div class=\"dice-result\">\n          <div class=\"dice-total\" style=\"color: #000000; border: 1px solid #000;\"> \n            ${totalAdjustment >= 0 ? \"+\" : \"\"}${totalAdjustment} HP \n          </div>\n          <div style=\"font-size: 1em; text-align: center;\">\n            ${currentHP} &rarr; ${newHP}\n          </div>\n        </div>\n      </div>`,\n    sound: CONFIG.sounds.dice\n  });\n}",
+  "folder": "zQNNODilx59PDCGk",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.nI9BHspxhzfosCCQ",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774038857534,
+    "modifiedTime": 1774078274377,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

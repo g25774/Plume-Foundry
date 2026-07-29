@@ -1,0 +1,30 @@
+{
+  "name": "Break(Poise)",
+  "type": "script",
+  "img": "icons/svg/falling.svg",
+  "command": "const targets = game.user.targets;\n\nif (targets.size === 0) {\n  ui.notifications.warn(\"Please target at least one token!\");\n} else {\n  const damageRoll = await new Roll(\"2d6 + 7\").evaluate();\n  const reduction = damageRoll.total;\n\n\n  for (let token of targets) {\n    const actor = token.actor;\n    const hp = actor.system.health.value ?? 0;\n    const hpMax = actor.system.health.max ?? 1; \n    const currentSpirit = actor.system.spirit.value ?? 0;\n    const currentRisk = actor.system.risk.value ?? 0;\n\n\n    let overkillMultiplier = 1; \n    if (hp < 0) {\n      overkillMultiplier += Math.floor(Math.abs(hp) / hpMax);\n    }\n\n\n    const totalSpiritLoss = reduction * overkillMultiplier;\n    const totalRiskGain = 1 * overkillMultiplier;\n\n    const newSpirit = Math.max(-999, currentSpirit - totalSpiritLoss);\n    const newRisk = currentRisk + totalRiskGain;\n\n    await actor.update({\n      \"system.health.value\": hpMax,\n      \"system.spirit.value\": newSpirit,\n      \"system.risk.value\": newRisk\n    });\n\n    let overkillText = `<div style=\"color:black; font-weight:bold;\">POISE BREAK x${overkillMultiplier}!</div>`;\n    \n    let content = `\n    <div class=\"dice-roll\"><div class=\"dice-result\">\n      <div style=\"text-align:center; margin-bottom:4px;\">${overkillText}</div>\n      <div style=\"display: flex; flex-direction: row; gap: 4px; justify-content: space-around;\">\n        <div style=\"flex: 1; text-align: center; border: 1px solid #777; border-radius: 3px; padding: 4px;\">\n          <div style=\"font-size: 0.7em; font-weight: bold; border-bottom: 1px solid #777;\">SPIRIT LOSS</div>\n          <div class=\"dice-total\" style=\"border:none;\">${totalSpiritLoss}</div>\n        </div>\n        <div style=\"flex: 1; text-align: center; border: 1px solid #777; border-radius: 3px; padding: 4px;\">\n          <div style=\"font-size: 0.7em; font-weight: bold; border-bottom: 1px solid #777;\">RISK GAIN</div>\n          <div class=\"dice-total\" style=\"border:none;\">+${totalRiskGain}</div>\n        </div>\n      </div>\n      <div style=\"margin-top:4px; font-size:11px; text-align:center;\">${token.name}: Health Reset to Max</div>\n    </div></div>`;\n\n    await ChatMessage.create({\n      speaker: ChatMessage.getSpeaker({ actor: actor }),\n      content: content,\n      rolls: [damageRoll.toJSON()]\n    });\n\n    ui.notifications.info(`${token.name} breaks x${overkillMultiplier}, losing ${totalSpiritLoss} Spirit.`);\n  }\n}",
+  "folder": "G1yILexyN3Oc8FbV",
+  "author": "WMjwEKNAtAglGrKs",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-trial",
+      "uuid": "Macro.JwA7gkKCPurw2H76",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774134120077,
+    "modifiedTime": 1774157186343,
+    "lastModifiedBy": "WMjwEKNAtAglGrKs"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

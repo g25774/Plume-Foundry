@@ -1,0 +1,30 @@
+{
+  "name": "Edit_SP",
+  "type": "script",
+  "img": "icons/svg/holy-shield.svg",
+  "command": "const targets = Array.from(game.user.targets);\nif (!targets.length) return ui.notifications.warn(\"Please target at least one token!\");\n\n// V13 Modern Input Dialog\nconst data = await foundry.applications.api.DialogV2.input({\n  window: { title: \"Edit_SP\" },\n  content: `\n    <div class=\"form-group\">\n      <label>Edit SPIRIT</label>\n      <div class=\"form-fields\">\n        <!-- Changed to text to allow math strings -->\n        <input type=\"text\" name=\"spiritAdjustment\" placeholder=\"0\" autofocus>\n      </div>\n    </div>`,\n  ok: { label: \"Apply\", icon: \"fa-solid fa-burst\" }\n});\n\n// Check for empty or cancelled input\nif (!data || !data.spiritAdjustment) return;\n\n// --- LAZY INPUT LOGIC ---\nconst matches = data.spiritAdjustment.match(/[+-]?\\d+/g);\nif (!matches) return ui.notifications.error(\"No valid numbers found.\");\nconst totalAdjustment = matches.reduce((acc, num) => acc + parseInt(num), 0);\n// ------------------------\n\nfor (let token of targets) {\n  const actor = token.actor;\n  const spiritPath = \"system.spirit.value\";\n  const spiritMax = \"system.spirit.max\";\n  const currentSpirit = foundry.utils.getProperty(actor, spiritPath);\n  const maxSpirit = foundry.utils.getProperty(actor, spiritMax);\n\n  if (currentSpirit === undefined || maxSpirit === undefined) {\n    console.warn(`Plume | ${token.name} does not have spirit defined.`);\n    continue;\n  }\n\n  // Calculate new Spirit (Clamped -999 to Max)\n  const newSpirit = Math.clamp(currentSpirit + totalAdjustment, -999, maxSpirit);\n  await actor.update({ [spiritPath]: newSpirit });\n\n  // Simple Chat Feedback\n  await ChatMessage.create({\n    speaker: ChatMessage.getSpeaker({ token: token.document }),\n    content: `\n      <div class=\"dice-roll\">\n        <div class=\"dice-result\">\n          <div class=\"dice-total\" style=\"color: #000000; border: 1px solid #000;\"> \n            ${totalAdjustment >= 0 ? \"+\" : \"\"}${totalAdjustment} SP \n          </div>\n          <div style=\"font-size: 1em; text-align: center;\">\n            ${currentSpirit} &rarr; ${newSpirit}\n          </div>\n        </div>\n      </div>`,\n    sound: CONFIG.sounds.dice\n  });\n}",
+  "folder": "zQNNODilx59PDCGk",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.VWUYTNYlgLVFs7nL",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774038857545,
+    "modifiedTime": 1774078297119,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

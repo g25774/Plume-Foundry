@@ -1,0 +1,338 @@
+{{! Stats Tab }}
+<section
+  class='tab actions {{tab.cssClass}}'
+  data-group='primary'
+  data-tab='actions'
+>
+
+<div class='grid grid-6col'>
+
+	<div class='bold'> Combat 
+		<div class='bold form-stack2'> 
+
+		</div>
+	</div>
+
+	<div class='bold'> -
+		<div class='bold form-stack2'> 
+
+			Actions[2]
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>ATTACK</b> | Action. You make an attack using all held weapons!'> ATTACK </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>CONFIRM</b> | Action. You add an extra hit using all held weapons!'> CONFIRM </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>SKILL</b> | Action. You use a skill or sexmove!'> SKILL </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>MOVE</b> | Action. You move your speed, usually 30ft!'> MOVE </a>
+
+			<a class='rollable' 
+				data-roll-type="hit"
+				data-move="grab"
+				data-label="<b>GRAB</b> | Action. You attempt to start a grapple! On success, move yourself and target 5ft, and gain [[2d6+7]] Spirit!" 
+				data-label2="Grapple" 
+				data-roll="d12+{{system.grapple}}" 
+				data-action='roll'> !GRAB
+			</a>
+
+			<a class='rollable' 
+				data-roll-type="hit"
+				data-move="grab"
+				data-label="<b>ESCAPE</b> | Action. You attempt to end a grapple! On success, move yourself and target 5ft, and gain [[2d6+7]] Spirit!" 
+				data-label2="Escape" 
+				data-roll="d12+{{system.grapple}}" 
+				data-action='roll'> !ESCAPE
+			</a>
+
+			<a class='rollable' 
+				data-roll-type="hit"
+				data-move2="strip"
+				data-move="second"
+				data-label="<b>STRIP</b> | Action. You attempt to strip a target!" 
+				data-label2="Strip" 
+				data-label3="Loss" 
+				data-roll="d12+{{system.grapple}}" 
+				data-roll3="2d6+7" 
+				data-action='roll'> !STRIP
+			</a>
+		</div>
+	</div>
+	<div class='bold'> -
+		<div class='bold form-stack2'> 
+
+			Reactions[1] 
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>Chain</b> | Reaction. Usable in Grapple. (Risk 3): You repeat your last action!'> Chain </a>
+
+			<a class='rollable' 
+				data-roll-type="multi"
+				data-move="save"
+				data-vs="mag"
+				data-label= "DC [[7+{{system.magTotal}}+{{system.extTotal}}]] <b>Tease</b> | Reaction. Usable in and out of Grapple. Enemy(5ft) suffers (MAG): Caster uses a Teasing or Punish sexmove on you!"
+				data-text="Save"
+				data-roll="1d12"
+				data-text2=""
+				data-roll2=""
+				data-text3=""
+				data-roll3=""
+				data-text4=""
+				data-roll4=""
+				data-action='roll'> 
+				Tease 
+			</a>
+
+			<a class='rollable' 
+				data-roll-type="hit"
+				data-move="grab"
+				data-label='<b>Shove</b> | Reaction. You push a target 10ft and deal [[2d6]] True Damage! In grapple, deals or removes PIN!'
+				data-label2="Shove" 
+				data-roll="d12+{{system.grapple}}" 
+				data-action='roll'> Shove
+			</a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+				data-label='<b>Tilt</b> | Reaction. Usable in grapple. When you whiff any two attack, grab, escape, or strip actions in a row OR take two move actions towards a target, 
+				you move your speed again and attack, grab, escape, or strip with a +7 bonus! You gain ENRAGE for 1 turn.'> Tilt 
+			</a>
+
+			<a class='rollable' 
+				data-roll-type="hit"
+				data-move="grab"
+				data-move2="strip"
+				data-label='<b>Exploit</b> | Reaction. (Enemy Breaks): You grab, escapes or strips as a reaction! If they dealt the break, they may also move towards their target!' 
+				data-label2="Exploit" 
+				data-roll="d12+{{system.grapple}}" 
+				data-action='roll'> Exploit
+			</a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+				data-label='<b>Misc</b> | Reaction. You open a door, use an item, flip a switch, etc.'> Other 
+			</a>
+		</div>
+	</div>
+
+	<div class='bold'> Exploration
+		<div class='bold form-stack2'> 
+
+			Fatigue[?]
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>ATTACK</b> | Action. You gain 1 Fatigue and regain [[6d6+7]] Spirit. Provokes Exploit. If you are out of combat, regain all Spirit instead!'> Recover[1] </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>ATTACK</b> | You regain all of your Spirit! You gain EAGER! If you already had EAGER, prevent spirit gain.'> Fantasize </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>ATTACK</b> | You clear all Arousal Debuffs! This takes time, anyone who sneaks in on you may ambush you without making any checks!'> Masturbate </a>
+			
+
+		</div>
+	</div>
+
+	<div class='bold'> -
+		<div class='bold form-stack2'> 
+
+			[Talents]
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Athletics - STR' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.strTotal}})+{{system.cuteTotal}}+{{system.athleticsBonus}}" 
+			data-action='roll'> Athletics
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Awareness - DEX' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.dexTotal}})+{{system.cuteTotal}}+{{system.awarenessBonus}}" 
+			data-action='roll'> Awareness
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Bartering - FTH' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.fthTotal}})+{{system.cuteTotal}}+{{system.barteringBonus}}" 
+			data-action='roll'> Bartering
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Knowledge - MAG' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.magTotal}})+{{system.cuteTotal}}+{{system.knowledgeBonus}}" 
+			data-action='roll'> Knowledge
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Larceny - DEX' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.dexTotal}})+{{system.cuteTotal}}+{{system.larcenyBonus}}" 
+			data-action='roll'> Larceny
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Persuasion - FTH' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.fthTotal}})+{{system.cuteTotal}}+{{system.persuasionBonus}}" 
+			data-action='roll'> Persuasion
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Sneaking - DEX' 
+			data-label2="Talent"
+			data-roll="d100+(12*{{system.dexTotal}})+{{system.cuteTotal}}+{{system.sneakingBonus}}" 
+			data-action='roll'> Sneaking
+			</a>
+
+			<span></span>
+			<span></span>
+			[Profession]
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Alchemy - MAG' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.magTotal}})+{{system.cuteTotal}}+{{system.alchemyBonus}}" 
+			data-action='roll'> Alchemy
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Blacksmith - STR' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.strTotal}})+{{system.cuteTotal}}+{{system.blacksmithBonus}}" 
+			data-action='roll'> Blacksmith
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Cooking - VIG' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.vigTotal}})+{{system.cuteTotal}}+{{system.cookingBonus}}" 
+			data-action='roll'> Cooking
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Enchanting - MAG' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.magTotal}})+{{system.cuteTotal}}+{{system.enchantingBonus}}" 
+			data-action='roll'> Enchanting
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Holycraft - FTH' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.fthTotal}})+{{system.cuteTotal}}+{{system.holycraftBonus}}" 
+			data-action='roll'> Holycraft
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Technology - DEX' 
+			data-label2="Craft"
+			data-roll="d100+(12*{{system.dexTotal}})+{{system.cuteTotal}}+{{system.technologyBonus}}" 
+			data-action='roll'> Technology
+			</a>
+
+		</div>
+	</div>
+	<div class='bold'> -
+		<div class='bold form-stack2'> 
+
+			[Dungeon]
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='Your party enters into another room!!'> Explore </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='You sneak into a nearby room alone using Sneaking and Awareness!
+			If combat starts, you must fight it alone for 3 turns!!'> Sneak </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='You loot defeated characters, and search the room for items!
+			You use Larceny to unlock any locked chests!!'> Search </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='You fight something!
+			Fights are noisy, and can be heard the next room over!!'> Fight </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='You stand guard, watching for sneaks!!'> Guard </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='You clear 1 fatigue, and reset spirit!
+			But, you have SLEEP until your next dungeon turn!!'> Rest </a>
+
+			-
+
+			<span></span>
+			<span></span>
+			[Downtimes]
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='Downtime. You look for something to fight!'> Look for Trouble </a>
+
+			<a class='rollable' 
+			data-roll-type="multi"
+			data-move=""
+			data-label="Downtime. You earn 2d6 Gold using a Talent of your choice! If you roll 100+, earn 3d6!"
+			data-text="Income"
+			data-roll="2d6"
+			data-text2="Bonus"
+			data-roll2="1d6"
+			data-text3="Danger"
+			data-roll3="1d100+{{system.cuteTotal}}"
+			data-text4=""
+			data-roll4=""
+			data-action='roll'> 
+			Earn Money 
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="multi"
+			data-move=""
+			data-label="Downtime. You spend time (or just fuck) a willing character!
+			You both share 10d4! Domination!
+			You both clear 1 Fatigue, all Arousal and share a Skill or Sexmove!"
+			data-text="Dom"
+			data-roll="10d4x"
+			data-text2="Fatigue"
+			data-roll2="1"
+			data-text3=""
+			data-roll3=""
+			data-text4=""
+			data-roll4=""
+			data-action='roll'> 
+			Hangout 
+			</a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='Downtime. You research a Lore you already know, completing it!!'> Study </a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='Downtime. You gather using any profession!!' 
+			data-label2="Danger"
+			data-roll="1d100+{{system.cuteTotal}}" 
+			data-action='roll'> Gather
+			</a>
+
+		</div>
+	</div>
+
+</div>
+
+</section>

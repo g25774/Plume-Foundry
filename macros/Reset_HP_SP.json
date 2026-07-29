@@ -1,0 +1,30 @@
+{
+  "name": "Reset HP/SP",
+  "type": "script",
+  "img": "icons/svg/tankard.svg",
+  "command": "// Get all currently selected tokens on the canvas\nconst tokens = game.user.targets;\n\n// Check if any tokens are selected\nif (tokens.length === 0) {\n  ui.notifications.warn(\"Please select at least one token!\");\n} else {\n  // Loop through each selected token and update its actor's HP\n  for (let token of tokens) {\n    const actor = token.actor;\n    const maxHP = actor.system.health.max; // Path for V10+ systems\n    const maxSP = actor.system.spirit.max; // Path for V10+ systems\n    \n    // Update the actor's current HP to match their max HP\n    await actor.update({ \"system.health.value\": maxHP });\n    await actor.update({ \"system.spirit.value\": maxSP });\n    ui.notifications.info(`Healed ${token.name} to full health.`);\n  }\n}",
+  "folder": "agySw2r3nCuPxXjk",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.06xmL8LTpDS8sHU9",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774485303189,
+    "modifiedTime": 1774493904590,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}

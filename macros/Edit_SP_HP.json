@@ -1,0 +1,30 @@
+{
+  "name": "Edit_SP/HP",
+  "type": "script",
+  "img": "icons/svg/heal.svg",
+  "command": "const targets = Array.from(game.user.targets);\nif (!targets.length) return ui.notifications.warn(\"Please target at least one token!\");\n\n\nconst data = await foundry.applications.api.DialogV2.input({\n  window: { title: \"Edit HP/SP\" },\n  content: `\n    <div class=\"form-group\">\n      <label>Edit HP/SP</label>\n      <div class=\"form-fields\">\n        <input type=\"text\" name=\"adjustment\" placeholder=\"0\" autofocus>\n      </div>\n    </div>`,\n  ok: { label: \"Apply\", icon: \"fa-solid fa-burst\" }\n});\n\nif (!data || !data.adjustment) return;\n\nconst matches = data.adjustment.match(/[+-]?\\d+/g);\nif (!matches) return ui.notifications.error(\"No valid numbers found.\");\nconst totalAdj = matches.reduce((acc, num) => acc + parseInt(num), 0);\n\nfor (let token of targets) {\n  const actor = token.actor;\n  \n  const hpPath = \"system.health.value\";\n  const hpMaxPath = \"system.health.max\";\n  const spPath = \"system.spirit.value\";\n  const spMaxPath = \"system.spirit.max\";\n\n  const currentHP = foundry.utils.getProperty(actor, hpPath);\n  const maxHP = foundry.utils.getProperty(actor, hpMaxPath);\n  const currentSP = foundry.utils.getProperty(actor, spPath);\n  const maxSP = foundry.utils.getProperty(actor, spMaxPath);\n\n  if (currentHP === undefined || maxHP === undefined || currentSP === undefined || maxSP === undefined) {\n    console.warn(`Plume | ${token.name} is missing Health or Spirit data.`);\n    continue;\n  }\n\n  const newHP = Math.max(-999, Math.min(maxHP, currentHP + totalAdj));\n  const newSP = Math.max(-999, Math.min(maxSP, currentSP + totalAdj));\n\n  await actor.update({ \n    [hpPath]: newHP,\n    [spPath]: newSP\n  });\n\n  await ChatMessage.create({\n    speaker: ChatMessage.getSpeaker({ token: token.document }),\n    content: `\n      <div class=\"dice-roll\">\n        <div class=\"dice-result\">\n          <div class=\"dice-total\" style=\"color: #000000; border: 1px solid #000;\"> \n            ${totalAdj >= 0 ? \"+\" : \"\"}${totalAdj} HP/SP \n          </div>\n          <div style=\"font-size: 0.9em; text-align: center; margin-top: 4px;\">\n            <strong>HP:</strong> ${currentHP} → ${newHP} | <strong>SP:</strong> ${currentSP} → ${newSP}\n          </div>\n        </div>\n      </div>`,\n    sound: CONFIG.sounds.dice\n  });\n}",
+  "folder": "zQNNODilx59PDCGk",
+  "author": "UNORo60nAPdSEnoE",
+  "scope": "global",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume-beta",
+      "uuid": "Macro.N9a8aqx2DTLcScVJ",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1774038857542,
+    "modifiedTime": 1774080730283,
+    "lastModifiedBy": "UNORo60nAPdSEnoE"
+  },
+  "ownership": {
+    "default": 3
+  }
+}
