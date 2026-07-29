@@ -1,0 +1,30 @@
+{
+  "name": "Cum",
+  "type": "script",
+  "command": "// Get all tokens currently targeted\nconst targets = game.user.targets;\n\nif (targets.size === 0) {\n  ui.notifications.warn(\"Please target at least one token!\");\n} else {\n  // Create and execute the roll\n  const damageRoll = await new Roll(\"1d20!\").evaluate();\n  const cumRoll = await new Roll(\"6d12!\").evaluate();\n  \n  // Show the roll in chat so players see the result\n  let content = `<div class=\"dice-roll\"><div class=\"dice-result\">`;\n  content += `<div style=\"margin-bottom: 4px;  font-size: 14px;\">`\n  content += `</div> <div style=\"margin-bottom: 8px;  font-size: 12px;\"> </div>`;\n  content += `<div style=\"display: flex; flex-direction: row; flex-wrap: wrap; gap: 4px; justify-content: space-between;\">`;\n  content += `\n  <div style=\"flex: 1; max-width: 90px; text-align: center; border: 1px solid #777; border-radius: 3px; \n  padding: 4px; background: rgba(0,0,0,0.05);\">\n  <div style=\"font-size: 0.7em; text-transform: uppercase; \n  font-weight: bold; border-bottom: 1px solid #777; margin-bottom: 4px;\"> Impregnation </div>\n  <div class=\"dice-total\" style=\"border:none; background:none; padding:0; line-height: 1;\"> ${damageRoll.total} </div>\n  </div>`;\n  content += `\n  <div style=\"flex: 1; max-width: 90px; text-align: center; border: 1px solid #777; border-radius: 3px; \n  padding: 4px; background: rgba(0,0,0,0.05);\">\n  <div style=\"font-size: 0.7em; text-transform: uppercase; \n  font-weight: bold; border-bottom: 1px solid #777; margin-bottom: 4px;\"> CUM ml </div>\n  <div class=\"dice-total\" style=\"border:none; background:none; padding:0; line-height: 1;\"> ${cumRoll.total} </div>\n  </div>`;\n  content += `</div></div></div>`;\n\n  for (let token of targets) {\n    await ChatMessage.create({\n      speaker: ChatMessage.getSpeaker({ token: this.actor }),\n      content: content,\n    });\n  }\n\n  \n}",
+  "img": "icons/svg/dice-target.svg",
+  "author": "1UcMxAmfsWqm5yjt",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume",
+      "uuid": "Macro.XhowVQXrGuJnpq0Q",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1772784959642,
+    "modifiedTime": 1772785104802,
+    "lastModifiedBy": "1UcMxAmfsWqm5yjt"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

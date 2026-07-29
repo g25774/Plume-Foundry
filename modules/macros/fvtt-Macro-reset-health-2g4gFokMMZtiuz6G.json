@@ -1,0 +1,30 @@
+{
+  "name": "Reset Health",
+  "type": "script",
+  "command": "// Get all currently selected tokens on the canvas\nconst tokens = game.user.targets;\n\n// Check if any tokens are selected\nif (tokens.length === 0) {\n  ui.notifications.warn(\"Please select at least one token!\");\n} else {\n  // Loop through each selected token and update its actor's HP\n  for (let token of tokens) {\n    const actor = token.actor;\n    const maxHP = actor.system.health.max; // Path for V10+ systems\n    const maxSP = actor.system.spirit.max; // Path for V10+ systems\n    \n    // Update the actor's current HP to match their max HP\n    await actor.update({ \"system.health.value\": maxHP });\n    await actor.update({ \"system.spirit.value\": maxSP });\n  }\n  ui.notifications.info(`Healed ${token.name} to full health.`);\n}",
+  "img": "icons/svg/dice-target.svg",
+  "author": "1UcMxAmfsWqm5yjt",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume",
+      "uuid": "Macro.2g4gFokMMZtiuz6G",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1772777591492,
+    "modifiedTime": 1772777786753,
+    "lastModifiedBy": "1UcMxAmfsWqm5yjt"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

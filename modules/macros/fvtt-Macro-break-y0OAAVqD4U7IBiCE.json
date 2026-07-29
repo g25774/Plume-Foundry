@@ -1,0 +1,30 @@
+{
+  "name": "Break",
+  "type": "script",
+  "command": "// Get all tokens currently targeted\nconst targets = game.user.targets;\n\nif (targets.size === 0) {\n  ui.notifications.warn(\"Please target at least one token!\");\n} else {\n  // Create and execute the roll\n  const damageRoll = await new Roll(\"4d6 + 7\").evaluate();\n  \n  // Show the roll in chat so players see the result\n  let content = `<div class=\"dice-roll\"><div class=\"dice-result\">`;\n  content += `<div style=\"margin-bottom: 4px;  font-size: 14px;\">`\n  content += `</div> <div style=\"margin-bottom: 8px;  font-size: 12px;\"> </div>`;\n  content += `<div style=\"display: flex; flex-direction: row; flex-wrap: wrap; gap: 4px; justify-content: space-between;\">`;\n  content += `\n  <div style=\"flex: 1; max-width: 90px; text-align: center; border: 1px solid #777; border-radius: 3px; \n  padding: 4px; background: rgba(0,0,0,0.05);\">\n  <div style=\"font-size: 0.7em; text-transform: uppercase; \n  font-weight: bold; border-bottom: 1px solid #777; margin-bottom: 4px;\"> BREAK </div>\n  <div class=\"dice-total\" style=\"border:none; background:none; padding:0; line-height: 1;\"> ${damageRoll.total} </div>\n  </div>`;\n  content += `</div></div></div>`;\n\n  await ChatMessage.create({\n    speaker: ChatMessage.getSpeaker({ actor: this.actor }),\n    content: content,\n  });\n\n  const reduction = damageRoll.total;\n\n  for (let token of targets) {\n    const actor = token.actor;\n    const currentSpirit = actor.system.spirit.value ?? 0;\n    const currentRisk = actor.system.risk.value ?? 0;\n    \n    // Calculate new spirit (preventing it from going below 0)\n    const newSpirit = Math.max(0, currentSpirit - reduction);\n    const newRisk = Math.max(0, currentRisk + 2);\n\n    // Update the value\n    await actor.update({ \"system.spirit.value\": newSpirit });\n    await actor.update({ \"system.risk.value\": newRisk });\n    \n    ui.notifications.info(`${token.name} breaks, losing ${reduction} Spirit. (Now: ${newSpirit})`);\n  }\n}",
+  "img": "icons/svg/dice-target.svg",
+  "author": "1UcMxAmfsWqm5yjt",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "plume",
+      "uuid": "Macro.y0OAAVqD4U7IBiCE",
+      "coreVersion": "13.351",
+      "systemId": "plume",
+      "systemVersion": "1.2.0"
+    },
+    "coreVersion": "13.351",
+    "systemId": "plume",
+    "systemVersion": "1.2.0",
+    "createdTime": 1772778505770,
+    "modifiedTime": 1772781089536,
+    "lastModifiedBy": "1UcMxAmfsWqm5yjt"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

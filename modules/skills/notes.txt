@@ -1,0 +1,529 @@
+(Risk 1): You gain ACC-UP for 2 turns.
+(When damaged by ranged): You move towards the attacker! Gain 1 Risk!
+(Risk 1, Take 6 Damage): You move your speed, then attack!
+(Risk 1): You make a single melee attack dealing +2d6 damage.
+(After you land an attack, Risk 1): You deal 3d6 true damage!
+(Cooldown 2): You move your speed, then attack!
+(Risk 2): You make a melee attack dealing (VIG): STUN for 1 turn!
+(After an enemy attacks you, Risk 2): You attack the enemy!
+You remove a debuff, and gain DEF-UP during Technique!
+(Cooldown 2): All within 5ft suffer (MAG):TIMID for 2 turns!
+(Risk 6): You make four single attacks! This ignores the Unwieldy keyword!
+Usable in Grapple. (Whenever you BREAK): You remove a debuff, and gain WILL-UP for 1 turn!
+(Risk 3): Make two attacks! You can only use this skill once per turn!
+You make a single non-spell attack, then lower your Cooldown by 1.
+(When attacked by range, Risk 3): You move your speed and deal Tackle: +(STR) 2d10 Blunt!
+(Risk 2): You make an attack that hits all within range, Deals (VIG):PUSH 5ft
+Slam: +(STR/DEX) Impact, Counts as Unarmed. 1d12 Blunt.
+You make a single attack or grab, deals a bonus 2d6 true to buffed targets!
+(Risk 4): You attack two times! If target is buffed, you gain 2 Risk!
+(Risk 2): 3x3 AoE(60ft) takes (DEX): 1d6 fire + BURN for 3 turns!
+Gain HASTE for 1 turn! (Cooldown 3): You remove all Debuffs!
+Requires Technique. (Lose Technique, Risk 1): You regain 2d6 Health and Spirit!
+Requires Technique. (Lose Technique, Risk 2): You make an attack dealing additional crit damage!
+Requires Technique. (Lose Technique, Risk 1): You deal a confirm!
+(Risk 3): You grapple but instead deal 6d6 blunt and (VIG):STUN for 1 turn!
+(Cooldown 3): You create a clone(5ft)! They copy skills you use, and share damage/debuffs!
+Requires Technique. You move and make a single melee attack!
+This skill may replace any unarmed attack! Kunai: 30ft +(DEX) Deals 2d4 pierce!
+Usable in Grapple. (Risk 6): You instantly escape, and teleport up to 15ft away!
+You make an single unarmed attack dealing (VIG): POISON for 3 turns!
+Requires Technique. (When damaged, Risk 2): You prevent damage!
+(Risk 2): Raigeki: +(DEX) 5ft - Deals 3d10 lightning and (MAG): SHOCK for 2 turns!
+(Risk 1): You move 30ft, and deal (MAG): ACC-DOWN for 1 turn to all within 5ft!
+Gain ATK-UP and DEF-UP for two turns. (Cooldown 3): You remove all Debuffs!
+Requires Technique. (Lose Technique): You single attack all within range!
+(Risk 1): Your saves this turn gains a 3x3 AoE! You make an attack!
+(Risk 1): Your attacks and saves this turn deal +1d6 Fire! Enemy(30ft) suffers (MAG): 2d6 Fire!
+(Risk 1): Your attacks this turn gain 30ft Range! Enemy(30ft) suffers (DEX): SHOCK for 2 turns!
+(Risk 2): You are PRONE! Your ranged attacks ignore Evasion, and cannot crit!
+Target must be flanked. You make a single attack dealing (VIG): ATK-DOWN for 2 turns.
+(Risk 1): You move 15ft, and gain another action!
+(Risk 2): You deal two confirms!
+(When you hit an enemy with ranged): You move your speed towards them and re-equip!
+(Cooldown 3): You make a unarmed single attack dealing (VIG): STUN for 1 turn!
+(Cooldown 4): You move your speed, then make a single attack dealing additional crit damage!
+(Risk 1): Enemy (60ft) suffers (MAG): MARK for 2 turns!
+You make a single attack that increases your buff durations by 1!
+(Risk 3): You attack all within range! At 50% or less spirit, deals additional crit damage!
+(Risk 5): You make an attack that deals additional crit damage!
+Target must have 3+ debuffs. (Risk 2): You make a single attack dealing additional crit damage.
+Doesn’t cost actions! (Cooldown 3): During Technique, Critical Hits grant you 1 Risk!
+(Cooldown 2): You make an attack dealing (VIG): DEF-DOWN for 2 turns!
+(Risk 1): You make an attack dealing (VIG): PRONE for 1 turn!
+You confirm! (Risk 3): Repeat this!
+Enemy(Weapon Range) suffers (DEX): Weapon Damage!
+(Risk 2): You shove, then make a single ranged attack!
+(Cooldown 3 or COIN 3): You move your speed, and attack!
+Must have no coins. (Cooldown 9): You gain 4 COINS, and deal 2d8 Unholy to Target(30ft)
+(Risk 1 or COIN 1): You gain 1d4-1 COINS.
+(When enemy within 30ft casts a spell, Risk 1): They suffer (MAG): Your spell is prevented!
+(Cooldown 5): You move your speed, then attack! You gain HASTE for 1 turn!
+(Cooldown 5): You use a skill and a spell. May only use Dualcast once a turn.
+(Risk 2): You make an attack with +30ft range, then teleport up to 30ft closer to your target!
+Doesn’t cost actions! (Coin 9): You gain 1d6 Risk!
+Fading. (Risk 3): At turn start, you melee attack all within 15ft!
+(Risk 6 or COIN 9): You cash out, dealing 6d6 Holy to Target(30ft).
+(Risk 5): You cast any spell while paying costs.
+(When you BREAK, Risk 4 or COIN 4): You regain 2d10 Spirit! Doesn’t scale!
+(Risk 1): You make an attack dealing +1d6 Fire, Cold, or Lighting!
+Once per turn! (Risk 1): You roll 3d6, gaining 3 COINS for each “6” you roll.
+(Risk 2 or COIN 2): You roll 3d6, making a single attack for each “6” you roll.
+(Risk 2): You move twice your speed, and lower your Cooldown by 2.
+(Risk 1): During Technique, deals spell damage taken to all within 10ft.
+(Risk 1, Exert): You make three single attacks! Ignores Unwieldy!
+(Risk 1): When an enemy misses you, you make a single melee attack against them as free action!
+You make a grapple, that gains a +3 bonus if this is your first action this turn!
+(Risk 2): You move your speed, then attack, dealing (VIG): PUSH(15ft)!
+(Whenever you take damage): You gain 1 Risk, and Cooldown decreases by 1!
+(Risk 1): You grapple but instead throw them at a target(30ft)! Both suffer (DEX): 3d10 True!
+(Risk 3): You make a grapple as a free action!
+Make a grapple, gaining HASTE for 1 turn if it succeeds!
+(After a move action): You fly your speed in a straight line, then melee attack or grapple!
+(Risk 2): You move your speed, then grapple!
+(When you take Fall damage): You make a melee attack, dealing Fall Damage as bonus damage!
+(When you land grapple): You may use a Teasing or Foreplay sexmove!
+(Risk 1): At turn start, you may grapple as a free action!
+At turn end, you take 2d6 damage and gain HASTE for 1 turn!
+(Risk 2): You make a single attack dealing (VIG):PUSH(5ft)!
+(If you would Grab/Strip, Risk 2): You additionally grab or strip!
+You grapple but instead dealing 3d10 True + PRONE for 1 turn!
+(Risk 2): Enemy(30ft) suffers (MAG): PROVOKE, MARK, and TIMID for 3 turns!
+You deal two single unarmed attacks to an enemy with STUN, PRONE, or DAZE!
+Doesn’t cost actions! (Risk 1): Whenever an attack misses you, it is considered Prevented!
+(Risk 1): You make an single unarmed attack! (Risk 4): You confirm twice!
+Requires 1h Weapon. (If enemy misses you): You make an attack, they gain ATK-UP for 2 turns!
+(Risk 2): You gain CRIT-UP for 2 turns, then make an attack!
+Cannot be exploited! (Enemy misses an attack): You move 5ft, and gain 1d6 SPIRIT!
+Hadoken: 30ft +(STR) 2d6 Fire (Risk 2): Deals +2d6 Fire and (VIG):DAZE for 1 turn!
+(Cooldown 1): You make a single unarmed attack, gaining 1 Risk!
+(You prevent any attack): You move 10ft, and gain 1 Risk! This doesn’t cost a reaction!
+Doesn’t cost actions! (Cooldown 1): At turn start, move your speed and attack!
+(Cooldown 1): You make three single unarmed attacks! You suffer DEF-DOWN for 2 turns!
+(You prevent any attack): You make a single attack that deals additional crit damage!
+(Cooldown 2): You single unarmed attack all within 5ft, (VIG): PRONE for 1 turn!
+(Cooldown 1): All within 10ft suffer (DEX): PULL(5ft) and 2d10 Blunt!
+Usable in Grapple. (Cooldown 1): You gain CRIT-UP for 2 turns!
+(Risk 1): During Technique, all attacks targeting allies(5ft) target you instead.
+Usable in Grapple. (Cooldown 2): Remove a debuff and regain 2d6 Spirit!
+Fading. (Risk 1): At turn start, you melee attack all within range!
+At turn start, gain DEF-UP for 2 turns! Any attack dealing 0 damage is prevented!
+(Ally within 30ft is attacked): You move 30ft towards it, and redirect the attack to you!
+Doesn’t cost actions! (Cooldown 3): You and ally(5ft) move your speed! Cannot be exploited!
+(Risk 1): At turn start, you remove a buff or debuff, then gain 1 Risk!
+(Risk 1): Durations you deal are increased by 1 turn!
+(You are attacked, Risk 2):You prevent a single attack!
+(Risk 2): During Technique, you gain STAT-UP.
+Ally(30ft) gains DEF-UP for 3 turns!
+(Risk 1): You count as a wall to AoEs, protecting anything behind you!
+If you would lose Focus, prevent it, and lose this Technique instead!
+(Risk 1): All enemies within 20ft suffer (VIG): PROVOKE for 2 turns!
+(When ally within 5ft is attacked, Risk 3): You move your speed, then attack!
+(Risk 2): You gain an additional action this turn, but lose an action next turn!
+You increase all buff durations by 1.
+You gain DEF-UP for 2 turns!
+You gain ATK-UP for 2 turns!
+Doesn’t cost Actions! Next skill/spell is prevented, then used at next turn start! Gain 1 Risk!
+(Enemy uses a spell, Cooldown 2): Deal an attack, dealing (MAG): Your spell is prevented!
+(When enemy fails to grab/strip you): You move 15ft away!
+Usable only in grapple. (Risk 2): You attempt overturn!
+Usable only in grapple. You attempt escape! Enemy gains HASTE for 1 turn!
+(Risk 1): You make a single attack, dealing (VIG): COOLDOWN 1!
+(If you would shove): Enemy suffers (VIG): PRONE for 1 turn and PUSH(10ft) instead!
+(Risk 2): You gain CRIT-UP and ACC-UP for 1 turn.
+(Risk 1): You remove up to 2 debuffs, and heal 2d6 Health/Spirit!
+Usable only in grapple. You deal 1d6 True to all enemies grappling you. They gain 1 Risk.
+Doesn’t cost Reactions! (When you BREAK, Risk 3): You don’t lose Focus/Technique!
+(Exert): You move 15ft, and gain HASTE for 2 turns!
+Target must be flanked. (Cooldown 1): You make a single attack dealing additional crit damage.
+(Risk 2): Enemy(10ft) suffers (DEX): ACC-DOWN for 2 turns!
+You have STEALTH during Technique! Technique breaks on dealing/taking damage!
+(Cooldown 2): You move twice your speed.
+Target must have 3+ debuffs. (Risk 1): You make a confirm!
+(Risk 2): 5x5 AoE(30ft) takes (DEX):2d6 fire + BURN for 2 turns!
+(Risk 1): You make a single melee attack, dealing (MAG): You end your turn an extra time!
+(If you would BREAK from combat damage, Cooldown 5): Prevent damage, and move 15ft!
+(After dealing any damage): You deal POISON for 1 turn!
+(Risk 1): You make an attack dealing (VIG): POISON for 2 turns!
+You make a grapple, that deals POISON for 2 turns if you succeed!
+(Risk 1): You make a melee attack that steals all COINS on a hit!
+(Cooldown 2): You move your speed, then grapple, dealing (VIG):POISON for 3 turns instead!
+(Risk 1): All within 5ft suffer (VIG): POISON for 2 turns.
+(Risk 2): During Technique, your extra hits deal POISON for 1 turn.
+Usable only in grapple. (Risk 1): You deal (VIG): EROTIC and POISON for 2 turns.
+(Risk 2): Summon(30ft) - (3 HITS) // Pyro: +(MAG) 30ft 1d6+2 Fire // Rub: 1d4+1 Erotic
+DEX Weapon - 2h, Ranged(60ft), Rapid - (MAG):BURN for 2 turns! // 1d10 Fire
+(Risk 1): Mark 5x5 Area(30ft). When a turn starts here, they take (MAG): BURN for 2 turns!
+Blaze: +(MAG) 30ft // Deals 2d6 Fire and BURN for 1 turn!
+Target must have BURN. (Risk 2): Target(30ft) takes (MAG): 3d10 fire and BURN for 3 turns!
+(Cooldown 1): Enemy(30ft) takes (MAG): 1d6 Fire and BURN for 2 turns!
+(Cooldown 6): 3x3 AoE(90ft) suffers (MAG): 6d6 Fire and BURN for 4 turns!
+(Risk 4): 5x5 AoE(60ft) suffers (MAG): 4d6 Fire and BURN for 2 turns!
+Firebolt: +(MAG) 30ft // Deals 2d10 Fire!
+Target(30ft) takes (MAG): BURN for 2 turns!
+(Risk 2): Mark a 1x1 AoE. At turn start, area increases by 2 and deals 3d10 Fire to AoE!
+(Risk 6): At turn start, deal 12d6 Fire and BURN for 6 turns to all within 20ft.
+(Cooldown 1): Cone(15ft) takes (MAG): 2d6 Fire! (Risk 2): Add two extra hits!
+Enemy(30ft) takes (MAG): 2d4 Fire and ends their turn! (Risk 2): Repeat this!
+You move 10ft, and use Seethe: +(MAG) 1d10 Fire! Buffed targets take 2d10 damage!
+STR Weapon - 2h, Cleave(2d10), Unwieldy - (VIG):DEF-DOWN for 1 turn! // 3d10 Cold
+(Cooldown 2): 5x5 AoE(60ft) suffers (MAG):2d6 Cold and CHILL for 2 turns !
+(Cooldown 4): You move your speed, then gain STEALTH and WET for 2 turns!
+Frostbite: +(MAG) Cleave(1d8), 20ft // Deals 1d12 cold and (MAG):CHILL for 1 turn!
+Debuffed Target(30ft) takes (MAG): CHILL for 1 turn!
+(Risk 2): All within 5ft takes (MAG): 2d10 Cold and CHILL for 2 turns!
+(Risk 1): Mark 7x7 Area(30ft). At turn start, suffer (DEX): 1d10 Cold and CHILL for 1 turn.
+(Risk 1): Hydroblast: +(MAG) 30ft // Deals 3d6 Cold and WET for 2 turns!
+(Cooldown 3): You cannot be damaged or debuffed! At turn start, skip your turn, and lose focus!
+(Risk 2): Ally(30ft) removes a debuff, and gains SHIELD!
+(Risk 2): 4 Summons(30ft) - 26HP // Blocks enemy movement, Takes x2 damage from fire.
+(Risk 1): Mark 7x7 Area(30ft). At turn start, suffer WET for 2 turns.
+(Cooldown 2): Target(5ft) heals 2d8 Health/Spirit and removes two debuffs!
+(Risk 1): Enemy(5ft) suffers (DEX): 3d6 Cold and converts their WET into BURN!
+(Cooldown 2): You move your speed, then deal (DEX): 3d10 Cold and WET for 2 turns to all in 5ft!
+Waterbolt: +(MAG) 30ft // Deals 2d6 Cold and WET for 2 turns!
+(Risk 3): 5x5 AoE(60ft) suffers (MAG): 4d6 Cold, WET for 3 turns, and PULL(15ft) towards center!
+Enemy(30ft) takes (MAG): 2d6 Cold. Buffed targets suffer CHILL for 2 turns.
+Target must have CHILL. (Risk 2): Target(30ft) suffers (MAG): 3d10 Cold and DISPEL!
+DEX Weapon Pair - Firearm(Unlimited), Rapid, Ranged(30ft) // 1d6+1 Lightning
+Out of combat. Next fight, add 1d4 to initative. // (Risk 1): Ally(60ft) gains HASTE for 1 turn!
+Doesn’t cost an action! (Cooldown 2): Target(30ft) suffers (MAG): Caster teleports you 10ft!
+(Cooldown 2): You teleport 15ft! You gain another action!
+(Risk 5): You cast another spell with no Risk/Cooldown cost three times!
+(Risk 2): At turn start, deal (MAG):2d10 Lightning to a Shocked Target within 30ft!
+(Enemy in 60ft Breaks, Risk 1): You teleport to them, and grab or strip!
+(Cooldown 1): Bolt: +(MAG) 90ft - Deals 3d8 lightning and (MAG): SHOCK for 2 turns!
+(Risk 2): Mark 7x7 Area(30ft). At turn end, area suffers (MAG): SHOCK for 3 turns!
+3x3 AoE(30ft) takes (MAG): SHOCK for 2 turns!
+(Cooldown 2): You move 30ft and deal (MAG): SHOCK for 2 turns to all within 5ft!
+(Cooldown 3): You teleport up to 60ft, then take 12 damage!
+(Cooldown 4): 5x5 AoE(60ft) suffers (MAG): 3d10 Lightning and SHOCK for 2 turns!
+(When affected by a spell, Risk 2): Enemy Caster suffers (MAG): Caster retargets your spell!
+(Cooldown 1): You move half your speed, and cast any Spell Attack!
+(Cooldown 2): Target(30ft) suffers (MAG): Trade places with the caster!
+(Risk 1): Ally(30ft) gain HASTE for 1 turn! Repeat at next turn start!
+Volt: +(MAG) 30ft - Deals 1d12 Lightning and SHOCK for 1 turn! (Risk 2): Repeat this!
+Doesn't cost actions. Once per turn, you use a focus, then suffer SHOCK for 3 turns!
+Weapon - 2h, Ranged(90ft) - (MAG):ACC-DOWN for 1 turn! // 2d8 Holy
+STR/DEX Weapon - Stance(2d8, Quick) // 1d12 Holy - Has (Risk 2): Deal +3d6 Holy!
+Arrow: +(MAG) 60ft // Deals 1d4+1 Holy - Add two extra hits!
+(Risk 1): You remove a debuff, and gain SHIELD!
+Bead: +(MAG) 30ft - Deals 1d6 Holy! Critical Hits deal additional crit damage.
+Blade: +(MAG) 5ft // Deals 1d6 Holy - Add an extra hit!
+Bolt: +(MAG) 30ft - Deals 1d8 Holy and lowers user Cooldown by 1!
+(Risk 1): Mark 3x3 AoE(60ft)! All who cross the border suffer (MAG): 2d10 Holy!
+(When targeted by any spell, Risk 2): Caster suffers (MAG): Spell is prevented!
+(Risk 1): Cannon: +(MAG) 90ft // Deals 3d6 Holy and PUSH(10ft)!
+(Risk 1): Comet: +(MAG) 60ft - Deals 2d8 Holy and lowers user Cooldown by 2!
+Out of combat. Detects magic, outsiders, and hidden units. // (Risk 1): All in 60ft lose STEALTH.
+Doesn’t cost Actions, Cannot target yourself. (Risk 2): Target(30ft) gains 1 Risk and 1d4 COIN!
+(Risk 2): 1x1 AoE(5ft) suffers (MAG): 3d10 Holy and DISPEL!
+(Risk 1): You call a sexmove or skill! When it’s used by an enemy, gain 2 Risk!
+(Risk 2): Palm: +(MAG) 5ft - Deals 2d10 Holy and PUSH(10ft)!
+Start with 3 stacks. At turn end, remove a stack. At 0, All within 10ft suffers (MAG): 8d6 Holy!
+(Risk 1): Enemy(60ft) takes 1d6+1 true damage 3 times! Doesn’t scale!
+(When attacked, Risk 2): Attacker suffers (MAG): 2d10 Holy and BURN for 2 turns!
+(Enemy fails grapple): You grapple them, but instead deal (MAG): 3d10 Holy and PUSH 10ft!
+Out of combat. You scan a targe, learning all about it! // (Risk 1): Use this in combat!
+(Risk 1): Enemy(30ft) suffers (MAG): 2d10 Holy and COOLDOWN 1!
+(Risk 3): When you end your turn, deal (MAG): 2d10 Holy to all within 15ft!
+(Risk 4, You suffer STUN for 1 turn): Enemy(5ft) suffers (MAG): 6d10 Holy and PUSH(30ft)
+(Risk 1): 3x3 AoE(30ft) suffers (MAG):1d10 Holy. The center deals additional crit damage.
+(Risk 4): Summon(30ft) - (6 HITS) // Claw: +(MAG) 3d6+5 Blunt // Violate: Recoil. 3d10 Lewd.
+(Risk 3): 2 Summons(30ft) - (2 HITS) // Sword: +(MAG) 2d6+3 Slash // Sex: Recoil. 2d6 Lewd.
+(Risk 2): 3 Summons(30ft) - (1 HITS) // Strike: +(MAG) 1d6+2 Pierce // Plap: Recoil. 2d4 Lewd twice.
+(Cooldown 4): 3x3 AoE(60ft) suffers (MAG): 3d10 Unholy + CURSE for 2 turns.
+(Risk 1): 3x3 AoE(60ft) suffers (MAG): 1d12 Unholy and CURSE for 1 turn!
+Enemy(30ft) suffers (MAG): 1d8 Unholy! Roll a 1d6. On 6, deal Aoe 5x5 and 5d8 Unholy instead!
+Claw: +(MAG) 30ft - Deals 1d6 Unholy! (Target has CURSE): Deal additional crit damage!
+Requires Focus. (Lose Focus, Risk 1): 3x3 AoE(30ft) suffers (MAG): POISON for 2 turns!
+You suffer POISON for 5 turns, and your turn ends.
+(Cooldown 1): Target(30ft) suffers (MAG): CURSE for 3 turns!
+(Cooldown 2): Mark 5x5 AoE(60ft). Characters within gain STEALTH for 1 turn.
+(Risk 1): Enemy(30ft) loses a buff! If the buff is STAT-UP, they gain STAT-DOWN instead!
+(Risk 3): 5x5 AoE(60ft) suffers (MAG): POISON for 3 turns!
+(Risk 1): Mindbolt: +(MAG) Ranged(30ft) - Deals 1d10 Unholy! // You may repeat this!
+(Risk 2): Enemy(30ft) suffers (MAG): 3d10 Unholy and PRONE for 1 turn!
+Target(30ft) suffers (MAG): CRIT-DOWN for 2 turns! (Risk 2): Targets 5x5 AoE(60ft)!
+Out of combat. Enemy starts fight with 1d6 COINS! // (Risk 1): Enemy gains 1d6 COINS!
+(Cooldown 3): Mark 3x3 Area(30ft). All within the area suffer ACC-DOWN.
+(Cooldown 1): Slash: +(MAG) 5ft - Deals 2d8 Unholy and lowers enemy buff durations by 2!
+(Cooldown 1): Spike: +(MAG) 30ft - Deals 2d4 Unholy and lowers enemy buff duration by 1!
+(Risk 1): Enemy(30ft) suffers (MAG): Caster transfers a buff or debuff to you!
+Mark a 3x3 Area(30ft). At turn start, gain 2 Risk instead if within Area!
+DEX Weapon Pair - Rapid, Versatile(+1 Evasion) // 1d8 Slash - Has (Risk 4): You confirm!
+STR/DEX Weapon - Defense(2) // 1d8 Blunt - When attacked, deal 1d6 Blunt to attacker!
+DEX Weapon - 2h, Firearm(3), Ranged(120ft), Accuracy(2) // 2d8+7 Pierce
+Immune to Sex. (Risk 5): Summon(5ft) - (8 HITS) // Smash: +(MAG) 4d6+3 Blunt + PUSH 5ft.
+Immune to Sex. (Risk 1): Summon(5ft) - (3 HITS) // Blast: 30ft +(MAG) 1d10+1 Holy
+Immune to Sex. (Risk 1): Summon (30ft) - (1 HITS) // Grants Ally(30ft) CRIT-UP for 2 turns!
+Immune to Sex. (Risk 1): 3 Summons (15ft) - (1 HITS) // Cannot act.
+(Risk 1): Enemy(30ft) suffers (MAG): 2d6 Blunt and PUSH(15ft)!
+(Risk 1): Mark a 1x1 area(30ft). Crossing the area border deals (MAG): 2d6 Blunt!
+(Risk 2): Mark a 3x3 area(30ft). Leaving the area border deals (MAG): 3d6 Blunt!
+(Risk 3): Mark a 5x5 area(30ft). Crossing the area border deals (MAG): 4d6 Blunt!
+Doesn’t cost an action! (Risk 2): Your weapons deal a bonus 1d4 damage!
+(Risk 1): Target marked area you control grows by 4, crossing anyone in it’s way.
+(Risk 2): All Allies(30ft) gain SHIELD and WILL-UP for 1 turn.
+(Cooldown 1): Stone: +(MAG) 60ft // Deals 4d6 Blunt and PUSH(5ft)!
+(Risk 2): All Enemies(10ft) suffer (MAG): 2d6 Blunt and PUSH(5ft) away from you!
+(Risk 3): A willing ally moves their speed, and makes an attack!
+(When attacked, Risk 2): A willing ally moves 60ft, then redirects an attack to itself!
+(Risk 2): You and an ally within 30ft both make an attack, targeting the same target!
+Summon(60ft) - 50HP - You can see and cast from this summon! Has no Collision.
+(Risk 1): All Allies(30ft) decrease debuff durations by 1.
+(Risk 1): All Allies(30ft) increases buff duration by 1 turn!
+(Risk 4): Target(30ft) heals 4d6 Health/Spirit and ends their turn twice!
+(Risk 1): All Allies(30ft) heal 1d6 Spirit and gain ATK-UP for 1 turn! Repeat at next turn start!
+(Risk 2): Target(30ft) suffers (MAG): SLEEP! Repeat at next turn start!
+(Risk 1): All Allies(30ft) gain BLESS for 1 turn! Repeat at next turn start!
+Out of combat. Message willing Target(120ft) // (Risk 2): Ally(30ft) gains ACC-UP for 2 turns!
+(Risk 1): At turn start, All Allies(5ft) gain 1d10 Spirit.
+(Cooldown 5): Target(30ft) suffers (MAG): SLEEP!
+(Risk 1): All Allies(30ft) heal 1d6 Health and gain RES-UP for 1 turn! Repeat at next turn start!
+(Cooldown 3): Target(30ft) gains REGEN for 5 turns.
+Doesn’t cost actions! (Risk 1): Target(30ft) removes a buff or debuff.
+Out of combat. Tracks magic, and whoever cast it. // (Enemy in 30ft casts Spell): Gain 1 Risk!
+(When you would lose Focus, Risk 2): You don’t lose Focus!
+(Risk 3): You brew a random vial! Roll 1d6. (Blue/Clear/Red/Yellow/Dark/Orange)
+When damaged, you may pay 2 Risk and (Coin Flip): Prevent it! Focus breaks in grapple!
+(Risk 3): You create a clone (5ft)! They copy any spell you cast, and share damage/debuffs!
+Your next spell or skill costs 1 less Risk or Cooldown this turn!
+Out of combat. Doesn’t cost Risk! // (Risk 1): Enemy(60ft) suffers (MAG):MARK for 2 turns!
+Requires Focus. You start, then end your turn twice without gaining Risk! Your focus ends!
+(Cooldown 1): Ally(30ft) increases all buff durations by 1!
+Target(30ft) suffers 1d4+2 true damage! All debuff durations increase by 1!
+(Risk 1): All within 5ft suffers (MAG): PUSH(15ft)!
+(Risk 2): When an Ally(30ft) would lose focus, prevent it and you lose focus instead!
+Requires 2 Risk. Roll 1d6. Your RISK becomes that number.
+(Cooldown 1): You take 2d10 True Damage. Ally(30ft) gains 2 RISK!
+(Risk 3): During Focus, all skill-related d6s always land on 6.
+(Risk 6): Summon(30ft) - (9 HITS) // Punch: +(MAG) 3d6+7 Blunt. // Onahole: Recoil. 2d10 Erotic
+(Risk 2): Summon(30ft) - (4 HITS) // (5ft) (MAG):CHARM for 1 turn // Pleasure: Recoil. 1d10 Erotic.
+(Risk 3): Summon(30ft) - (7 HITS) // +4 Grab // Corrupt: (-1 HP): 2d10 Lewd
+Sexmove Scaling. Enemy(30ft) suffers (MAG): 1d6 Desire and SHAME for 2 turns!
+(Risk 1): Enemy (30ft) suffers (MAG): DEF-DOWN and MARK for 2 turns!
+(Risk 1): Target(30ft) takes (VIG): EROTIC, and POISON for 2 turns!
+(Risk 3): Choose a Target(30ft). At end of their turns, suffer (MAG): You attack your closest ally!
+Sexmove Scaling. Enemy(30ft) suffers (MAG): 1d6 Lewd and TENDER for 2 turns!
+Usable in grapple. If Submissive, gain 2 Risk instead at turn start. If Dominating, heal 1d6 Spirit.
+Target must have DAZE. Enemy(30ft) suffers (MAG): STUN for 1 turn!
+(Cooldown 2): Target within 30ft suffers (MAG): TIMID for 2 turns and loses 2 Risk!
+(Cooldown 4): Defeated Character(5ft) rises with 2d6+7 Spirit! You control them during Focus.
+Sexmove Scaling. You grapple, dealing 1d10 Erotic if you succeed! You heal for damage dealt!
+Sexmove Scaling. (Risk 2): Enemy(30ft) suffers (MAG): Focus. At turn start, suffer 1d6 Erotic.
+Usable in grapple. Target(30ft) gains HASTE for 1 turn. If target is an enemy, gain 2 Risk.
+Out of combat. Gain SHIELD! // Enemy(30ft) takes (MAG):TIMID for 3 turns!
+(Risk 2): You create two illusions(30ft)! At turn start, you may switch places with either illusion!
+Sexmove Scaling. (Risk 1): Enemy(30ft) suffers (MAG):1d10 Lewd and PULL(10ft)!
+Target must have 3+ debuffs. (Risk 2): Target(30ft) suffers (MAG):STUN for 1 turn!
+(When targeted in melee): Enemy suffers (MAG): You grapple your target instead!
+Sexmove Scaling. (Risk 6): Enemy(30ft) suffers (MAG): 4d10 Erotic!
+Usable in Grapple (When someone else Lewd BREAKS within 5ft): You gain 1d6+3 SPIRIT.
+Doesn’t cost actions. You gain BOMB for 3 turns. Attacks deal (MAG): BOMB for 2 turns.
+(Risk 1): Enemy(30ft) suffers (MAG): 2d6 Fire and CURSE for 2 turns!
+(Cooldown 1): Target(30ft) chooses (A): Caster gains 2 Risk or (B): Suffer (MAG): 3d10 Fire!
+Requires Target with Cooldown. Enemy(30ft) suffers (MAG): BURN for 3 turns!
+(Risk 2): Enemy(30ft) explodes, dealing (MAG): Target’s BURN to all within 15ft, including them!
+(Cooldown 3): Cone 15ft suffers (MAG): 4d6 Fire + BURN for 2 turns!
+You suffer BOMB for 3 turns.
+(Risk 2): 5x5 AoE(10ft) suffers (MAG): 3d6 Fire and BURN for 1 turns!
+(Cooldown 1): Enemy(5ft) suffers (MAG): BOMB and CURSE for 2 turns!
+Usable in Grapple. You suffer BURN for 2 turns! Attacks and Sexmoves deal BURN for 2 turns.
+(Risk 1): You make a single attack with +15ft range dealing BURN for 2 turns.
+(Risk 2): 3x3 AoE(30ft) suffers (MAG): 1d10 Fire + PUSH(5ft) away from center!
+(Risk 6): 7x7 AoE(5ft) suffers (MAG): 6d6 Fire and BURN for 6 turns!
+You suffer POISON and BURN for 2 turns, and gain BLESS for 4 turns.
+(Cooldown 2): At turn end, all within 5ft suffers (MAG): BURN for 3 turns!
+(Risk 2): You move, then deal (MAG): BOMB for 2 turns to all within 5ft, including you!
+You create a 20ft light. // Ending your turn within it grants you REGEN for 2 turns!
+Doesn’t cost actions. (Risk 3): At turn end, you gain BOMB for 1 turn, and move your speed!
+(Cooldown 3): All allies(20ft) removes a debuff, and gains SHIELD!
+(Risk 1): Enemy(5ft) suffers (MAG): 3d10 Cold, DEF-DOWN, and WET for 2 turns!
+(Cooldown 1): Target(30ft) gains SHIELD and WET for 2 turns!
+(Risk 2): Target(30ft) heals 2d10 Health/Spirit, and gains WET for 3 turns.
+(Risk 2): You gain DEF-UP for 2 turns. Melee Attackers suffer (MAG): CHILL for 1 turn!
+(Risk 1): Ice Spear: +(FTH) 15ft // Deals 2d10 Cold and (MAG): CHILL for 1 turn!
+(Risk 2): At turn end, gain SHIELD. While you have SHIELD, you have CRIT-UP.
+(Cooldown 2): All within 15ft take (MAG): 3d10 Slash and WET for 2 turns.
+Splash: +(FTH) 30ft - Deals 2d6 Cold // Deals WET for 2 turns!
+(Risk 3): 5x5 AoE(60ft) suffers (MAG): 4d6 Cold, WET for 3 turns, and PUSH(15ft)!
+(Risk 1): Enemy(30ft) takes (MAG): 2d10 Cold, PULL(30ft) and WET for 2 turns!
+(Risk 2): You deal (MAG): 3d6 Cold and WET for 2 turns to 10ft Line(30ft)!
+(Risk 2): 5x5 AoE(60ft) suffers CHILL for 0 turns. Starting your turn here reapplies CHILL.
+(Cooldown 1): All within 10ft take 1d12 True Damage, and end their turns an extra time.
+(Risk 2): Enemy(60ft) suffers (MAG): Caster teleports you 30ft!
+(Risk 2): Target(30ft) gains HASTE for 2 turns!
+Requires 6 Risk. Your spells this turn cost 1 less RISK. Cannot reduce cost below 1.
+(Exert): You cast two spells without Exert! At turn end, end your turn an extra time!
+(Risk 1): Deal a single attack with +30ft range and FTH scaling! Deals SHOCK for 2 turns!
+(Risk 2): Enemy(60ft) suffers (MAG): Swap places with the caster!
+(Risk 1): Enemy(5ft) suffers (MAG): SHOCK for 3 turns while Focus lasts!
+(Risk 2): All within 5ft take (MAG): 3d10 Lightning, PUSH(5ft) and SHOCK for 2 turns.
+(Risk 1): You gain 1d4 coins! At 4+, gain CRIT-UP! At 6+, gain HASTE!
+(Risk 4): All allies within 20ft gains HASTE for 1 turn!
+Requires Focus. (You lose your Focus, Risk 6): You gain HASTE for the rest of combat.
+(You are attacked, Risk 3):You prevent a single attack, gaining HASTE for 1 turn!
+All within 15ft suffer (MAG): lose Focus. You gain 1 Risk.
+(Risk 1): Enemy(30ft) takes (MAG): 1d10 Holy and ACC-DOWN for 2 turns.
+Card: +(FTH) 30ft // Deals 1d12 True Damage! This cannot critically hit!
+You gain 1 Coin. Enemy(30ft) suffers (MAG): 2d6 Holy. At 4+ COINS, deal 3d10 Holy instead.
+(Risk 2): Dice: +(FTH) 60ft // Deals 1d6 True, 1d6 times! - This cannot critically hit!
+(Risk 2): Target within 30ft suffers DISPEL, and 3d6 true damage if buffed! Doesn’t scale!
+(Risk 2): You and all within 15ft takes (MAG):ACC-DOWN and DAZE for 2 turns.
+(Risk 3): Flush: +(FTH) 30ft // Deals 5d6 True Damage! This cannot critically hit!
+(Risk 2): During Focus, you gain a +3 to Evasion and Saves. Lose this focus if you take damage.
+Glare: +(FTH) 30ft Deals 2d6 Holy // (MAG): ACC-DOWN for 1 turn!
+(Risk 1): Enemy(30ft) takes (MAG): 2d8 Holy! If save was failed, move half your speed!
+(Risk 1): Enemy(30ft) suffers (MAG): 2d10 Holy and Cooldown 1!
+(Risk 1): Enemy(30ft) suffers (MAG): 2d4 True twice! This cannot critically hit!
+Requires Focus. (Cooldown 2): You make an attack with +15ft range, dealing +2d6 Holy!
+(Risk 1): Enemy(30ft) suffers (MAG): 1d10 True Damage and MARK for 2 turns!
+(Cooldown 2): When movement enters within 10ft, deal (MAG): 3d10 Holy and End Movement!
+Target(30ft) suffers (MAG): 2d10 Holy Damage!
+(Cooldown 3): Enemy(30ft) suffers (MAG): 3d4 True three times! This cannot critically hit!
+You attack using FTH Scaling! This deals Holy Damage instead!
+Cannot move. (Risk 4): 2 Summons(30ft) - (3 HP): // +3 Grab // Plunge: Recoil. 2d6 Lewd!
+Cannot be removed. (Risk 6): You DISPEL and are immune to all debuffs. Gain WILL-UP.
+(Risk 1): Target(30ft) suffers (MAG): CHARM for 2 turns! If they failed save, gain 1 Risk!
+Usable in Grapple! (Risk 2): Enemy(30ft) suffers (MAG): EXT-DOWN for 3 turns!
+(Cooldown 2): When you lose this focus as part of a BREAK, gain an extra 2 Risk!
+Target(30ft) gains “When damaged, prevent up to 10 damage and deal it to Caster!” during Focus!
+(Risk 2): Enemy(30ft) suffers (MAG): You move your speed away from the caster!
+Foxfire: +(FTH) 30ft Deals 1d10 Lewd and TIMID for 2 turns!
+(Cooldown 2): At turn end, you move your speed, and make an attack!
+Requires Target with Cooldown. Enemy(30ft) suffers (MAG): PRONE for 2 turns!
+Usable in Grapple. When Enemy(30ft) suffers from a Lewd DoT, gain 1d6 spirit, doesn’t scale!
+(Risk 2, Exert): Your turn ends, and ally(30ft) takes an extra turn! You lose 2d6+7 Spirit!
+(Risk 2): Enemy(5ft) suffers (MAG): You grapple the caster, and suffer TIMID for 2 turns!
+You gain 2 Risk but suffer 2d10 True Damage! Your turn ends!
+(Risk 1): You and Target(30ft) gains WILL-UP during Focus!
+Doesn’t cost actions. (Risk 3): You gain ATK-UP, CRIT-UP, CDMG-UP! You cannot cast Spells!
+Doesn’t cost actions. (Risk 1): Ally(30ft) gains BLESS for 2 turns!
+Requires Focus, Usable in Grapple You gain BLESS for 1 turn!
+Requires Target with Cooldown. You move your speed, then attack using FTH scaling!
+Doesn’t cost Actions. (Cooldown 4): If your spirit is below 50%, you gain 3 Risk!
+(Cooldown 2): Mark 3x3 AoE(30ft). Those within it cannot target outside of it, and vice versa.
+(Cooldown 3): Target(30ft) gains STAT-UP of choice for 2 turns!
+(Risk 2): Target(30ft) suffers (VIG): You are grappled! Escapes go against the caster!
+(Risk 2): You make a melee attack, then deal (VIG): FALLING(30ft)!
+(Risk 3): You gain CRIT-UP! If you would BREAK, break this Focus instead and set Health to 1!
+(Risk 2): Allies(10ft) gain DEF-UP for 3 turns.
+(Risk 2): You grapple but instead deal 6d10 Holy Damage!
+(Risk 1): You make a single unarmed attack dealing (VIG): 1d10 Holy and PUSH(15ft)!
+(Risk 1): At turn end, deals (VIG):2d6 Holy to all enemies within 10ft damaged this turn!
+(Cooldown 2): All within 10ft suffer (VIG): 2d6 Holy and PUSH(5ft)!
+(Risk 2): You make three single unarmed attacks, dealing +1d10 Holy!
+(Risk 1): Nen Shot: +(FTH) 60ft Deals 2d4 Holy! If you hit, move 60ft towards the target!
+Target must be Falling. Enemy(30ft) suffers (VIG): You lose FALLING, taking doubled Fall Damage!
+(When an Enemy(30ft) uses a Focus/Technique): You use a Focus/Technique!
+(Enemy within 30ft takes Fall Damage, Risk 2): You move 30ft, and attack, dealing PUSH(15ft)!
+(Risk 1): You grapple, instead dealing PUSH(20ft) and FALLING(20ft)! Counts as an attack!
+Doesn’t cost Actions. (Risk 2): You move your speed, but cannot move towards enemies!
+(Cooldown 2): Removes all debuffs within 10ft!
+(Risk 1): Target(30ft) removes a buff or debuff!
+Target must be Falling. (Risk 1): You fly 60ft and make a confirm, then land safely next to Target!
+(Risk 1): Target (30ft) heals 2d6 Health/Spirit!
+Requires Focus. (Cooldown 2): You gain 1 Risk once per turn.
+Doesn’t cost Actions. (Risk 1): Target(30ft) gains a COIN!
+Target must be debuffed. (Risk 1): Target(30ft) removes all debuffs.
+(Risk 1): You fly 60ft! If movement ends while airbourne, suffer FALLING!
+(Risk 1): Ally(30ft) removes two debuffs and gains 1 COIN!
+(Cooldown 2): Target(5ft) heals 2d10 Health/Spirit and gains REGEN for 2 turns!
+(Risk 2): All allies(30ft) gains REGEN for 2 turns!
+(Ally within 30ft is attacked, Risk 2): Ally heals 2d6 Health/Spirit!
+(Risk 1): You make a single attack dealing DISPEL!
+Requires Focus. (You lose your Focus, Exert): You DISPEL, and remove all Cooldown!
+Target must be defeated. (Risk 6): Target(30ft) is set to 4d6+7 SPIRIT.
+Target must be debuffed. Target(30ft) suffers DISPEL and CURSE for 2 turns.
+Requires Focus. (Risk 6): All within a 15ft wide line(90ft) take 8d10 Holy and DISPEL!
+(When you lose Focus from BREAK): You gain 2 Risk, and reduce Cooldown by 2!
+You may remove Stripped once per fight. At turn end, end your turn an extra time!
+You move and make an attack, granting the target 1d6 COINS!
+(Cooldown 3): Characters within 30ft cannot reduce Cooldown or gain Risk via skill effects.
+(Risk 2): You may break this Focus to reroll any roll!
+Doesn’t cost actions! (Risk 1): You gain EXT-UP for 2 turns!
+(Risk 1): Enemy(30ft) suffers (MAG):DAZE for 2 turns!
+(After any roll in 30ft, Risk 2): You attempt (Coinflip): You choose if it succeeds or fails!
+(Risk 2): You DISPEL yourself! All within 10ft take (MAG): All dispelled debuffs.
+You gain 2 Risk! When this Focus ends, pay 4 Risk or take 27 True Damage!
+(Cooldown 2): You gain 4 COINS! If you lose Focus lose all COINS!
+Usable in Grapple. (You roll, Risk 1): You reroll it!
+(Risk 6): Summon(30ft) - Spawn two copies that take an action! At turn end, two of you disappear!
+(Cooldown 2): Target(60ft) suffers (MAG): Cooldown 2!
+(You are targeted by a Ranged Attack, Risk 4): You redirect it back to the source!
+(Cooldown 3): Mark a 7x7 AoE(60ft). When you end your turn here, you end it two more times.
+(Anything happens, Cooldown 1): Deal (Coin Flip): Prevent this vs It happens twice!
+Usable only on your turn. Target(30ft) ends their turn once. (This triggers DoTs, Regen, etc.)
+Throw Clock: Impact, Ranged(30ft). +(MAG) 2d6 Blunt
+Enemy(30ft) suffers (MAG): BOMB for 4 turns!
+You must be debuffed. You move your speed, increasing your debuff durations by 1!
+(Cooldown 4): 5x5 AoE(30ft) suffers (MAG): 4d10 Unholy and PULL(10ft) towards center!
+Requires Target with Cooldown. Enemy(30ft) suffers (MAG): MARK for 2 turns!
+(Risk 6): All within 30ft suffers (MAG): 6d10 Unholy and PUSH(5ft)!
+(Risk 2): Target(30ft) takes (MAG):ATK-DOWN and CRIT-DOWN for 2 turns!
+Target(30ft) gains EXT-UP or RES-UP for 2 turns! (Risk 2): Doesn’t cost actions!
+You must be debuffed. (Risk 2): All debuffs within 20ft increase by 2, including yours!
+You gain 1d4 COINS. OR You pay X COINS. Enemy(30ft) suffers (MAG): Xd10 Unholy!
+Target(30ft) suffers (MAG): 3d6 Unholy and a debuff duration increases by 2!
+(You are attacked): Attacker suffers (MAG):MARK for 2 turns!
+(Risk 3): Enemy(30ft) suffers (MAG): TGH-DOWN for 3 turns.
+Enemy(15ft) takes (MAG): MARK and ATK-DOWN for 1 turn!
+You make an unarmed attack that steals 1d4 COINS!
+Target(30ft) suffers (MAG): CURSE for 2 turns and gains 1 COIN!
+Target must be debuffed. You steal all debuffs from the target, gaining 1 Risk per debuff!
+Target must be debuffed. (Risk 2): Target(30ft) suffers (MAG): 6d6 Unholy and Cooldown 2!
+(Cooldown 2): Enemy(30ft) suffers (MAG): Caster steals a Buff and any COINS!
+Target must be debuffed. You make a single attack, increasing debuff durations by 1!
+You must be debuffed. (Risk 1): Spite: +(FTH) 30ft Deals 3d10 unholy damage.
+You must be debuffed. (Risk 1): You end your turn three times.
+(Risk 2): Mark a 5x5 AoE(60ft). When you end your turn here, debuff durations don’t lower!
+At turn start, all within 30ft suffer (MAG): You pay Caster 1 Risk or 1 COIN!
+(Risk 1): Toxin: +(FTH) 30ft Deals 1d10 Unholy // (MAG): POISON for 3 turns!
+(Risk 2): 5x5 AoE(60ft) suffers (MAG): 4d6 Unholy and DISPEL!
+(Risk 7, Exert, Cooldown 7): 5x5 AoE(30ft) takes (MAG): 12d10 Unholy if cost was paid! Can’t crit!
+Warp: +(FTH) 30ft Deals 1d8 Unholy, Enemy ends their turn an extra time!
+(Risk 1): You grapple, then you and target move your speed if you succeed!
+(Risk 1): You move your speed then shove! If you succeed, deal 4d6 true damage!
+(Cooldown 3): All within 15ft suffer (MAG): TIMID and PROVOKE for 3 turns!
+(Risk 2): You move your speed, then attack! If you hit, you and target suffer (VIG): STUN!
+(Risk 2): You gain ATK-UP for 3 turns. All within 10ft suffer (VIG): PUSH(10ft)!
+(Cooldown 4): You gain STEALTH for 2 turns.
+You gain CRIT-UP, and ATK-UP for 2 turns, but you suffer PROVOKE(Enemy) for 2 turns!
+(Risk 3): You grapple, dealing PUSH(30ft)! DAZE dealt by this skill deals (DEX):3d10 Blunt!
+(Risk 3): All allies within 15ft gain ATK-UP and TGH-UP for 3 turns!
+(Risk 2): At turn start, remove this and Enemy(30ft) suffers (MAG): SLEEP for 1 turn!
+(Risk 2): Your sexmoves deal a bonus 2d4 lewd or desire damage!
+(Risk 2): Choose an enemy. During Focus, damage taken is dealt to chosen enemy!
+During Focus, all turns within 30ft start and end twice.
+(Risk 6): At turn start, you gain an extra turn. During it, your actions always succeed!
+You end your turn! During Technique, damage you deal and take is doubled!
+(Risk 2): During Technique, you fly 10ft above the ground! When removed, suffer PRONE!
+During Technique, gain ATK-UP and REGEN for 2 turns. REGEN is always at 2 turns!
+During Technique, you share a space with an ally! When they move, you move!
+Fading. (Risk 1): At turn start, deal (DEX): 2d10 Blunt and PRONE to all within 5ft.
+Fading. (Risk 1): At turn start, make a melee attack with Cleave!
+Fading. (Risk 1): At turn start, make a single melee attack dealing PUSH(15ft)!
+You move 10ft. This doesn’t provoke exploits.
+(Risk 1): Allies(30ft) gain CRIT-UP for 2 turns. You end your turn.
+(Risk 1): Enemy(30ft) suffers ATK-DOWN and RES-DOWN for 1 turn!
+(When you are damaged, Risk 1): You remove a debuff, and move 15ft towards the source!
+(Risk 1): You and an Ally(5ft) swap places!
+(Risk 2): 3x3 AoE(30ft): suffers (DEX): HORNY and EROTIC for 2 turns, and STRIP!
+You make a single attack, removing Focus on-hit.
+(Risk 1): Target(30ft) gains 1 Risk.
+Usable in grapple. (Risk 1): Enemy(5ft) suffers (VIG): HORNY and POISON for 2 turns.
+(Risk 2): You gain ACC-UP and ATK-UP for 4 turns.
+You eat food during combat! Healing gained this way is halved!
+(Risk 6): You make an attack that always hits, dealing +3d10 Pierce!
+(Risk 3): Make an attack targeting all within range, dealing (VIG): PUSH(10ft).
+(Risk 2): 3x3 AoE(15ft) suffers (DEX): 2d10 Cold and WET for 4 turns!
+(Risk 1): Enemy(30ft) suffers (DEX): 2d12 Blunt and DAZE for 1 turn!
+(Risk 4): Target(30ft) suffers (MAG): Downsize for 3 turns. Downsize: You take double damage.
+(Risk 2): Target(30ft) gains (MAG): Embiggen for 3 turns. Embiggen: 2x2 Size. WILL-UP.
+(Risk 2): Enemy(30ft) suffers (MAG): 3d12 Holy and removes a buff!
+(Risk 6): You are defeated! All within 20ft suffers (MAG): 6d6 Fire and BURN for 3 turns!
+(Risk 1): Your movement this turn ignores collision and deals (MAG): CURSE for 2 turns.
+(Risk 1): Target(30ft) suffers (MAG): You strip or use a sexmove on yourself!
+(Risk 3): You and target(30ft) swap all buffs and debuffs!
+(Risk 6): 5x5 AoE(30ft) suffers (MAG): BURN, CHILL, and SHOCK for 3 turns!

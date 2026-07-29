@@ -1,0 +1,133 @@
+You gain +2 to Accuracy, but suffer -1 Precision and Ferocity!
+You gain +2 to Attack, but suffer -1 Willpower and Resistance!
+You gain +2 to Precision, but suffer -1 Toughness and Expertise!
+You gain +2 to Defense, but suffer -1 Precision and Willpower!
+You gain +2 to Resistance, but suffer -1 Attack and Defense!
+You gain +2 to Toughness, but suffer -1 Ferocity and Resistance!
+You gain +2 to Expertise, but suffer -1 Attack and Defense!
+You gain +2 to Ferocity, but suffer -1 Accuracy and Toughness!
+You gain +2 to Willpower, but suffer -1 Accuracy and Expertise!
+You gain a +3 to Initiative, but suffer a -1 to Defense and Resistance.
+You gain +2 to Evasion, but take 100% more combat damage!
+You start combat with IMMUNE for 3 turns. When you break, suffer PRONE for 1 turn!
+At 50% Spirit, you gain HASTE for 2 turns once per fight! You suffer -2 Toughness!
+Your other edge has doubled positive effects if it's not unique, but tripled effects when it works against you.
+While completely unarmed, gain +1 Attack and Expertise! You suffer a -2 to Defence.
+When you escape, you deal 2d10 true damage to the dom! You suffer a -1 to Willpower and Resistance!
+Gain +1 to any Attribute. You set Defense and Resistance to -2. Other bonuses this substat has are ignored!
+At turn end, you gain 1 Risk but take 2d12 true damage.
+Gain a +1 to all Substats! Your first lewd break in combat costs 6d6+11 more Spirit!
+Your weapons deal +1 (+2 if 2h) damage, but you suffer a -1 to FTH!
+Unique. Your movement is 40ft, but enemies don’t require a reaction to exploit you on break!
+Unique. You gain an extra 12 (+1 per Rank) Pointbuy. You cannot take Reactions.
+Unique. You start combat with HASTE for 1 turn. At first turn end, gain STUN, ignoring immunity!
+Unique. While in a grapple, the dominating character deals a bonus 2d4 Lewd at turn start!
+Unique. Your attributes, substats, and talents are 0. While out of combat, may copy someone else’s for three days.
+Unique. Debuffs increase durations at turn end instead. At combat end, DISPEL.
+Unique. You start combat with “Engarde”, but suffer a -2 to Resistance! // Focus. During this, gain DEF-UP.
+Unique. You gain +2 to any Substat, but you suffer a -2 to FTH!
+Unique. At 50% spirit, gain +3 to Grabs! When you fail to grapple an enemy, lose 1d6+3 Spirit!
+Unique. Your critical hits deal critical damage twice, but can only critically hit on a natural 12 crit roll.
+Unique. When you end your turn, you end it a second time. This second turn does not reduce Cooldown.
+Unique. You gain +2 Evasion! You must have 2 or less DEX. You cannot take reactions.
+Unique. You have two reactions per turn but suffer STUN(Immutable) whenever you take damage!
+Unique. Damaging enemies on their turn grants you HASTE for 1 turn. You lose 10ft movement to minimum of 5ft.
+Unique. Natural 1 on non-damage rolls involving you gain a +11 bonus. If the roll is d100, the bonus is +99 instead.
+Unique. You start combat with STAT-DOWN(immutable)! After 3 turns, it becomes STAT-UP(immutable)!
+Unique. You always have SHOCK. When your SHOCK triggers, it hits everyone involved.
+Unique. Your movement doesn’t trigger reactions. Cannot use “The Pawn!” Grapples against you gain +3!
+Unique. After you break, you suffer DISPEL. When you are buffed or debuffed, increase the duration by 1.
+Unique. Dealing damage grants you 1 COIN. When you break, lose all coins. You lose 3 spirit per coin lost.
+Unique. At turn start, you may move exactly 10ft. When you take damage, suffer PRONE for 1 turn.
+Unique. You can use a single 2h weapon as a 1h weapon. You suffer -2 Defense and Resistance!
+Unique. You may shove once per turn for free. When you shove or escape, your target gains 2 Risk!
+Unique. Immune to STUN and SLEEP. You gain DOUBLE Pointbuy but you only have 1 action per turn!
+Unique. You always suffer the -3 penalty with ranged weapons. At 5ft, this becomes a +3 bonus instead.
+Unique. Cannot be Undead. You always have POISON for 1 turn. Your sexmoves deal POISON for 1 turn.
+Unique. You always have ACC-UP. When you deal damage, suffer MARK for 1 turn.
+Unique. You always have ATK-DOWN. When you take damage, attacker suffers ATK-DOWN for 1 turn.
+Unique. You always have CRIT-UP. Critical Hits you deal grant your target 1 Risk!
+Unique. You always have DEF-UP. Breaks you suffer deal 2d6 more Spirit Loss!
+Unique. You always have RES-DOWN. Lewd damage you deal infilcts RES-DOWN for 1 turn!
+Unique. You always have EXT-UP. Your saves also grant targets EXT-UP for 2 turns.
+Unique. You always have TGH-DOWN. Breaks you deal infilct TGH-DOWN for 2 turns.
+Unique. Unique. You always have CDMG-UP. Damage you deal inflicts CRIT-UP for 1 turn!
+Unique. You always have WILL-DOWN. At turn end, all within 5ft suffer WILL-DOWN for 1 turn!
+Unique. Chain is now "Pass" // (Risk 3): Grant an ally(30ft) an extra action.
+Unique. Move is now "Dash". // Reaction. You move your speed.
+Unique. Escape is now "Seduce" // Usable in Grapple. Enemy(30ft) suffers (FTH vs MAG): CHARM for 1 turn.
+Unique. Tilt is now "Taunt" // Enemy(30ft) loses 2d6 spirit and gains 2 risk.
+Unique. Scaling reduced by 1. You are 2 characters! Your attacks cannot break grapples!
+Unique. Scaling reduced by 1. You are 3 characters! Each have 1 action! Your attacks cannot break grapples!
+Unique. Strong to X. (-2 per X chosen) to any Substat(s)!
+Unique. Strong to Slash, Blunt, and Pierce. -6 to any Substat(s)!
+Unique. Strong to Slash. -2 to any Substat!
+Unique. Strong to Blunt. -2 to any Substat!
+Unique. Strong to Pierce. -2 to any Substat!
+Unique. Strong to Fire, Cold, Lightning, Holy, and Unholy. -10 to any Substat(s)!
+Unique. Strong to Fire. -2 to any Substat!
+Unique. Strong to Cold. -2 to any Substat!
+Unique. Strong to Lightning. -2 to any Substat!
+Unique. Strong to Holy. -2 to any Substat!
+Unique. Strong to Unholy. -2 to any Substat!
+Unique. Weak to X. (+1 per X chosen) to any Attribute(s)!
+Unique. Weak to Slash, Blunt, and Pierce. +3 to any Attribute(s)!
+Unique. Weak to Slash. +1 to any Attribute.
+Unique. Weak to Blunt. +1 to any Attribute.
+Unique. Weak to Pierce. +1 to any Attribute.
+Unique. Weak to Fire, Cold, Lightning, Holy, and Unholy. +5 to any Attribute(s)!
+Unique. Weak to Fire. +1 to any Attribute.
+Unique. Weak to Cold. +1 to any Attribute.
+Unique. Weak to Lightning. +1 to any Attribute.
+Unique. Weak to Holy. +1 to any Attribute.
+Unique. Weak to Unholy. +1 to any Attribute.
+Gain +3 to Accuracy. You suffer a -4 to Attack.
+Gain +3 to Attack. You suffer a -4 to Expertise.
+Gain +3 to Precision. You suffer a -4 to Ferocity.
+Gain +3 to Defense. You suffer a -4 to Resistance.
+Gain +3 to Resistance. You suffer a -4 to Defense.
+Gain +3 to Toughness. You suffer a -4 to Willpower.
+Gain +3 to Expertise. You suffer a -4 to Precision.
+Gain +3 to Ferocity. You suffer a -4 to Toughness.
+Gain +3 to Willpower. You suffer a -4 to Accuracy.
+Unique. Immune to Sexmoves.  When grabbed, remove grapple and take 4d6+7 True Damage!
+Unique. You gain 12 Pointbuy. When alone, tries to run. If attacked while running, surrenders.
+Unique. At combat start, gain IMMUNE(3). When debuffed, suffer STUN for 1 turn.
+Unique. Enemies targeting you lose 5ft range. On break, suffer PRONE and STUN for 1 turn.
+Unique. Combat damage no longer breaks your grapples. You always have RES-DOWN.
+Unique. At turn start, gain SHIELD. When SHIELD is lost, suffer PRONE and STUN for 1 turn.
+Unique. When you are defeated, suffer BOMB for 1 turn.
+Unique. Lewd debuffs involving you increase duration by 1. Debuffs on you trigger twice if able.
+Unique. Gain +1 to any Attribute. You suffer TENDER at all times.
+Unique. Gain +1 to any Attribute. You suffer SHAME at all times.
+Unique. Gain +1 to any Attribute. You suffer TIMID at all times.
+Unique. Gain +1 to any Attribute. You suffer HORNY at all times.
+Unique. Gain +1 to any Attribute. You suffer PIN when targeted by a grapple.
+Unique. At combat start, gain RES-DOWN for 4 turns. When you lewd break, it becomes RES-UP.
+Unique. Attacks involving you deal MARK for 2 turns to the attacker!
+Unique. You gain +2 to FTH. Your first break each combat deals 6d6+11 more Spirit Loss.
+Unique. You start with 3 COINS. Breaks involving you give the attacker the victim's COINS.
+Unique. Once per turn, per character, sexmoves involving you may repeat once for free!
+Unique. You always have RES-UP. When you lewd break, it becomes RES-DOWN.
+Unique. Lewd Breaks involving you grant ATK-UP or EXT-UP to the attacker for 2 turns.
+Unique. Exploits involving you are followed by a free Exploit from the victim!
+Unique. Lewd Debuffs involving you (5ft) cause the attacker to heal equal to amount dealt!
+Unique. When attacked, you gain 1 Risk once per turn! Your attacker gains 2 Risk!
+Unique. Your speed is 50ft, but you instantly end your turn after any movement.
+Unique. You are "Undead" (see Undead Race).
+Unique. You are always WET. Sexmoves involving you deals WET for 1 turn to the user.
+Unique. You gain +2 to Evasion. Misses targeting you grant the attacker ACC-UP for 1 turn.
+Unique. You gain +2 to Defense. When you break, suffer DEF-DOWN for 2 turns.
+Unique. You lose 7 Pointbuy. Once per fight, gain an extra action.
+Unique. Unique. Grapples involving you grant the attacker a free 15ft movement when started.
+Unique. You gain +5 to Toughness. You always have DEF-DOWN and RES-DOWN.
+Unique. Magic you cast is also recast targeting you! All magic costs are doubled!
+Unique. You have DEF-UP, and RES-DOWN. When you break, reverse both of these.
+Unique. Holy damage you take grants REGEN for 1 turn. You take doubled fire damage.
+Unique. You suffer a -2 Accuracy, but now gain a +7 bonus from Flanking.
+Unique. When you are grappled, deal EROTIC and TIMID for 2 turns to both of you.
+Unique. You gain +1 to any Attribute. A chosen substat is set to -3, ignoring all other bonuses.
+Unique. At turn start, roll a d4. On a 4, gain 4 Risk. On a 1, lose all of your Risk.
+Unique. You take no physical damage, but take double damage from spells and lewd damage.
+Unique. You absorb magic. You take doubled physical damage and lewd damage.
+Unique. You gain +3 Resistance, but always have TGH-DOWN and WILL-DOWN.

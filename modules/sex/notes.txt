@@ -1,0 +1,192 @@
+Gain WILL-UP for 3 turns!
+Quick. Deals SHAME for 3 turns!
+Quick. Deals TENDER for 3 turns!
+Quick. Deals RES-DOWN for 2 turns! Enemy gains 1 Risk.
+Quick. Deals ATK-DOWN for 3 turns! Enemy loses 1 Risk.
+Quick. Deals BURN for 2 turns!
+Quick. Deals CHILL for 2 turns!
+Quick. Deals SHOCK for 2 turns!
+Quick. Deals CRIT-DOWN for 2 turns!
+Deals PROVOKE for 2 turns! (Risk 2): You gain CRIT-UP for 2 turns! 
+Deals TIMID for 2 turns! Reduce cooldowns by 1!
+Rapid. Deals HORNY for 2 turns! Reduce enemy buff durations by 1!
+Quick. You gain 1d6+7 Spirit! (Naked): Add an extra hit dealing Erotic Damage!
+Gain CRIT-UP for 3 turns! This cannot critically hit!
+Flexible Position. You remove a debuff!
+Quick. Position. (Position): Add two extra hits dealing Lewd Damage!
+Position. Deals PIN! (Naked, Position): Your confirms deal Erotic Damage this turn!
+All grappling enemies take 2d6 True Damage and you gain 1 Risk!
+You remove a buff from enemy! (Risk 3): Add three extra hits dealing True Damage!
+You remove a debuff! (Risk 2): You attempt Escape as a free action!
+Deal TENDER for 2 turns! (Risk 2): Add an extra hit, and trigger lewd debuffs again!
+Deal SHAME for 2 turns! (Risk 2, Foreplay): Add three extra hits dealing Lewd Damage!
+Throw. (Risk 5): Deal 2d10 True Damage and PUSH 10ft!
+Hold. (Cooldown 3): Deal PRONE! (Hold Expires): Deal STUN!
+Hold. (Risk 3): Deal TIMID for 1 turn! (Hold): Transfer a debuff to Enemy!
+Hold. (Risk 3): Deal EROTIC for 1 turn! (Hold): Add an extra hit!
+Hold. (Risk 5): Deal TIMID and PRONE for 1 turn! (Hold): Repeat damage!
+Position. Deals PIN! (Position): Your next confirm this turn costs no actions!
+Position. (Risk 3): Deal PIN! (Position): Deal STUN!
+Hold. (Dominating, Risk 1): Deal WILL-DOWN for 1 turn! (Hold): Add an extra hit!
+Hold. (Dominating, Risk 1): Deal ATK-DOWN for 1 turn! (Hold): Add an extra hit!
+Hold. (Dominating, Risk 1): Deal SHAME for 1 turn! (Hold): Add an extra hit!
+Hold. (Dominating, Risk 1): Deal TIMID for 1 turn! (Hold): Enemy takes 4 Recoil.
+Hold. (Dominating, Risk 3): Deal PIN! (Hold): Add an extra hit!
+Hold. (Dominating, Risk 3): Deal TIMID for 1 turn! (Hold): Add two extra hits!
+Hold. (Dominating, Risk 3): Deal PRONE! (Hold): Add an extra hit! Heal spirit for damage dealt!
+Hold. (Dominating, Risk 3): Deal TENDER for 4 turns! (Hold): Add an extra hit!
+Throw. (Any Position, Dominating, Risk 2): Deals 2d10 True Damage and DAZE!
+Throw. (Any Position, Risk 6): Deals 3d10 True Damage and DEF-DOWN for 2 turns!
+Throw. (Any Position, Dominating, Risk 6): Deals 5d10 True Damage and PRONE!
+Throw. (Any Position, Dominating, Risk 6): Deals 3d10 True Damage and STUN!
+(Dominating): You and your victim move your speed!
+Unique Position. (Dominating): Deal PIN! During position, sexmoves deal EROTIC for 1 turn!
+Unique Position. (Dominating): Deal PIN! During position, at turn start, repeat damage!
+Quick. (Dominating, Risk 2): Deal DAZE! (Risk 3): Repeat this twice!
+Deals TENDER for 2 turns!
+You take 4 Recoil! You and your opponent suffers SHAME for 2 turns! (Risk 2): Repeat this
+Quick. Deals TENDER for 2 turns! (Risk 2): Repeat this!
+Quick. Deals SHAME for 2 turns! (Cooldown 2): Confirm this!
+Quick. Steal a buff or debuff from Target! (Risk 2): Confirm this!
+Quick. You gain SHAME for 2 turns! (Risk 2): Repeat this!
+Quick. Steal a buff or debuff from Target! (Cooldown 3): You heal 2d6 Health/Spirit!
+Rapid. Position. Deals PIN! (Position): Add 2 Extra Hits, dealing Erotic instead!
+Rapid. Position. Deals PIN! (Position): Deals EROTIC for 3 turns!
+Rapid. This move cannot deal breaks. Target gains 1 Risk and HASTE for 1 turn!
+Unique Position. (Risk 2): You end your turn! At turn start, use a sexmove as a free action!
+Rapid. Extra hits from this move also deal 1 Recoil! (Risk 3): Confirm this!
+You gain 1d6 Spirit! (Risk 2): Repeat this!
+Flexible Position. You and Enemy may use a Teasing Sexmove! Cannot be used in PIN.
+Flexible Position. (Position, Risk 2): You may also use another Foreplay or Sex move!
+Quick. Flexible Position. You take 5 Recoil! During position, gain 1 Risk at turn start!
+Quick. You take 4 Recoil!  (Enemy has Position): You may confirm as a free action!
+Quick. You take 4 Recoil! You and Enemy gain 1 Risk! (Cooldown 2): Repeat this!
+Quick. You take 4 Recoil! Repeat this once per turn! (Risk 3): You gain 1d6+7 Spirit!
+Rapid. You take 4 Recoil! You and target suffer BURN for 1 turn! (Risk 3): Repeat this twice!
+Quick. You take 5 Recoil! (Exert): Repeat this twice!
+Quick. You take 6 Recoil! (Confirm): Deal PIN!
+Quick. You take 7 Recoil! If you are debuffed, repeat this once per turn!
+Rapid. You take 7 Recoil! Add an extra hit! (Risk 2): Repeat this!
+Quick. You take 8 Recoil! (Confirm): Remove a debuff from yourself!
+Quick. You take 8 Recoil! (Cooldown 2): Remove a debuff from yourself, and repeat this!
+Rapid. You take 9 Recoil! Confirms involving this move cost reactions!
+Flexible Position. You take 8 Recoil! Deals TIMID for 2 turns!
+(Any Position): You take 13 Recoil and lose position!
+Quick. Cannot impregnate. You take 8 Recoil! Deal SHAME for 2 turns. (Risk 2): Repeat this!
+Quick. Cannot impregnate. You take 9 Recoil. If you break, damage becomes EROTIC instead.
+Quick. Cannot impregnate. (Risk 2): You take 10 Recoil! Deal PIN! Add 2 extra hits!
+Rapid. Position. You take 5 Recoil! (Position): Once per turn, repeat this three times!
+Quick. Position. You take 5 Recoil! (Position, Confirm): Repeat this!
+Quick. Position. You take 7 Recoil! (Position): Remove a buff from Enemy and gain 1 Risk!
+Quick. Position. You take 7 Recoil! Deal SHAME for 2 turns! (Position): Repeat this once per turn!
+Quick. Position. You take 6 Recoil! (Position): Once per turn, use a Teasing sexmove!
+Quick. Position. You take 6 Recoil! Deal PIN! (Position): Once per turn, repeat this!
+Quick. Position. You take 6 Recoil! Deal PIN! (Position, Cooldown 2): You gain 2 Risk!
+Quick. Position. You take 6 Recoil! Deal PIN! (Position, Cooldown 2): Repeat this twice!
+Unique Position. You take 7 Recoil! During Position, target is PRONE! (Risk 2): Confirm this!
+Quick. You take 6 Recoil! (Risk 3): Repeat this!
+Quick. Position. You take 8 Recoil! Deal PIN! (Position, Risk 3): Deal 3 Extra Hits!
+Hold. (Risk 4): You take 7 Recoil! (Hold): Repeat this!
+Quick. Position. (Risk 2): You take 8 Recoil! Deal PIN! (Position): Deal two extra hits!
+Quick. Hold. (Risk 2): You take 8 Recoil! Deal TIMID for 2 turns. (Hold): Deal two extra hits!
+Rapid. Position. (Risk 2): You take 7 Recoil! Deal PRONE! (Position): Repeat this twice!
+Rapid. (Risk 2): You take 9 Recoil! Deal PIN! Add two extra hits!
+Position. (Risk 2): You take 8 Recoil! Deal PIN! (Position): Deal EROTIC for 2 turns!
+Position. (Risk 2): You take 8 Recoil! Deal PIN! (Position): Once per turn, repeat this!
+Position. (Risk 2): You take 10 Recoil! (Position): You remove all buffs from target!
+Position. (Risk 2): You take 13 Recoil! (Position, Cooldown 2): Deal CHARM for 1 turn!
+Position. Enemy uses a Teasing Sexmove! (Position, Risk 2): Deals Erotic damage instead!
+Position. Enemy uses a Teasing Sexmove! (Position): Add 4 Extra Hits dealing Erotic instead!
+Enemy uses a Recoil Sexmove! You take 7 Recoil! Deal 2 extra hits!
+Cannot impregnate. Position. You take 2 Recoil! (Risk 2): Repeat this!
+Quick. You take 7 Recoil! Deal HORNY for 1 turn! (Risk 2): Repeat this!
+Quick. You take 7 Recoil! Deal TIMID for 1 turn! (Confirm): You gain HASTE for 1 turn!
+Quick. Hold. (Risk 3): You take 4 Recoil twice! (Hold): You confirm!
+Rapid. You take 4 Recoil! Deal EROTIC for 1 turn! (Confirm): Enemy also takes Recoil!
+Costs no actions. (Submissive, Risk 3): You attempt Escape, or remove Position!
+Quick. Hold. (Submissive, Risk 2): Deal PROVOKE for 2 turns! (Hold): Deal a Confirm!
+(Submissive, Risk 1): You and target both gain 1d6+7 Spirit! (Enemy Target): Costs no Risk!
+(Submissive, Cooldown 3): You deal CHARM for 1 turn!
+(Submissive, Cooldown 3): You heal 2d6+7 Spirit and gain HORNY for 1 turn!
+(Submissive): Enemy gains 2 Risk, You gain RES-UP for 2 turns!
+(Submissive): You gain 2 Risk! You also target yourself with this move, dealing Lewd Damage!
+Unique Position. (Submissive): During position, you and target may only use Sex.
+Unique Position. (Submissive, Risk 1): During position, Recoil is dealt again to both players!
+Rapid. (Submissive): Deal TENDER for 1 turn! (Confirm): Target also takes 4 Recoil!
+(Submissive): You and your target take 9 Recoil!
+(Submissive, Risk 4): You take 13 Recoil! Heals spirit for damage dealt! Add two extra hits!
+(Submissive, Risk 1): You take 6 Recoil! You reduce all debuff durations by 2!
+(Submissive): You take 6 Recoil! (Cooldown 2): You gain RES-UP for 2 turns!
+(Submissive, Risk 3): Enemy may use any Recoil Sexmove! Repeat this twice!
+Quick. (Submissive): You take 9 Recoil! (Risk 2): Repeat this! You gain 1d6 Spirit!
+(Submissive): You take 4 Recoil! This move repeats to target all grappling enemies!
+Quick. You or Target must have Position! (Submissive): You and Target take 6 Recoil!
+Unique Position. (Dominating): During position, you and target cannot use Sex.
+(Dominating, Risk 1): Heal for damage dealt if enemy suffered BREAK this turn!
+(Dominating): If enemy breaks, deal EROTIC for 4 turns. (Risk 2): Repeat this!
+Unique Position. (Dominating): During position, opponent cannot break!
+(Dominating): Enemy takes 4 Recoil. (Risk 4): Deal STUN!
+Requires Submissive Target. You become submissive and heal 2d6 Health/Spirit!
+Ignores enemy clothes. (Dominating): You take 8 Recoil and gain CRIT-UP for 2 turns!
+Ignores enemy clothes. (Dominating): You take 4 Recoil three times! Add 2 extra hits!
+Ignores enemy clothes. (Dominating, Risk 2): You and Enemy loses 2d6+7 Spirit!
+Hold. You take 6 Recoil! (Hold): Confirm this! Heal spirit for damage dealt!
+Hold. You take 6 Recoil! Deal TIMID for 1 turn! (Hold): Repeat this!
+(Dominating, Cooldown 2): You take 17 Recoil. If you break, deal additional crit damage!
+(Dominating, Exert): You take 6 Recoil! Deal PIN! Repeat this twice!
+(Dominating, Risk 2): You and allies in grapple take 6 Recoil and add an extra hit!
+(Dominating, Risk 2): You take 6 Recoil. Flanking Ally may use another Recoil Sexmove!
+(Any Position, Dominating, Risk 3): You take 9 Recoil! Deals additional crit damage.
+(Any Position, Dominating, Exert, Risk 6): You take 13 Recoil! Repeat this twice!
+(Dominating, Exert): You take 17 Recoil! Add two extra hits!
+Rapid. Requires PIN or PRONE. (Dominating): You take 6 Recoil! Deal 2 extra hits!
+Rapid. Requires PIN or PRONE. You take 6 Recoil! You gain REGEN for 1 turn!
+Rapid. Requires PIN or PRONE. You take 6 Recoil! Deal CURSE for 2 turns!
+(Cooldown 2): Deals BURN for 3 turns! (Risk 2): Reduce Cooldowns by 1!
+(Cooldown 2): Deals CHILL for 3 turns! (Risk 2): Reduce Cooldowns by 1!
+(Cooldown 2): Deals SHOCK for 3 turns! (Risk 2): Reduce Cooldowns by 1!
+(Cooldown 3): Deals DISPEL! (Risk 5): Throw. Add three extra hits dealing Holy Damage!
+(Cooldown 3): Deals CURSE for 3 turns! (Risk 5): Heal for Damage Dealt!
+(Cooldown 5):  You and Enemy gain 4d6+7 Spirit! (Risk 5): Enemy gains no Spirit!
+Immutable. (Risk 6): You gain RES-UP and TGH-UP for the rest of the fight!
+(Any Position, Cooldown 6, Risk 6, Exert): You take 6 Recoil. You repeat this six times!
+Hold. (Cooldown 3): Deals HORNY for 3 turns! (Hold): Deal an extra hit dealing Lewd Damage!
+You and Enemy gain BURN and CURSE for 3 turns!
+You and Enemy gain SHAME and CHILL for 3 turns!
+You and Enemy gain TENDER and SHOCK for 3 turns!
+(Cooldown 1): Unique Immutable Debuff. At 4+ DOOM, adds 13 Erotic Damage! Deal DOOM 1.
+Immutable. (Risk 6): You gain ATK-UP, CRIT-UP, and CDMG-UP until defeated!
+Position. Deal SHOCK for 2 turns! (Position): Enemy ends their turn twice!
+(Risk 2): Enemy uses a Recoil Sexmove! You gain spirit equal to enemy recoil taken!
+Rapid. Unique Position. (Position): Add three extra hits and roll an impregnation check!
+Cannot deal breaks or remove Sleep! You take 14 Recoil! (Risk 6): Deal SLEEP for 2 turns!
+Toy. (Dominating, Risk 3): Until removed, victim has EXT-DOWN and can't use spells!
+Toy. (Dominating, Risk 3): Until removed, victim has ACC-DOWN and WILL-DOWN!
+Toy. (Dominating, Risk 3): Until removed, deal confirm at victim's turn start and end!
+Toy. (Dominating, Risk 4): Until removed, victim has SHOCK and TENDER!
+Toy. (Dominating, Risk 4): Until removed, victim has CURSE and BURN!
+Toy. (Dominating, Risk 4): Until removed, victim has CHARM and POISON!
+Toy. (Dominating, Risk 5): Until removed, victim has SHAME and TIMID!
+Toy. (Dominating, Risk 5): Until removed, victim has HORNY and DAZE!
+Toy. (Dominating, Risk 6): Until removed, victim attempt to remove this tool!
+Toy. (Dominating, Risk 2): Until removed, victim has CRIT-UP and WILL-DOWN!
+Deals a stack of PETRIFY(unique). At 9 stacks of PETRIFY, enemy is instantly DEFEATED~!
+Hold. (Risk 4): You take 6 Recoil! Deals PIN and SHAME for 2 turns! (Hold): Repeat this!
+Quick. Position. You take 6 Recoil twice! Deals PIN! (Position): Deals additional crit damage!
+(Any Position, Dominating, Exert): You take 13 Recoil twice! At combat end, repeat damage!
+(Any Position, Risk 3): You take 27 Recoil! If you break, deal HORNY and EROTIC for 4 turns!
+(Risk 2): You gain WILL-UP and RES-UP for 2 turns.
+You take 3 recoil! You and target gain TENDER for 1 turn! (Risk 2): Repeat this!
+You and target gain RES-DOWN for 2 turns! You gain CRIT-UP for 1 turn!
+(Risk 1): You gain 10d4! Domination. At 100+Dom, drains 1d4 levels!
+(Risk 2): Deal POISON for 5 turns!
+Quick. You take 6 Recoil! You and target gain BLESS for 1 turn! (Risk 2): Repeat this!
+Rapid. You take 5 Recoil twice! Deal EXT-DOWN for 2 turns!
+(Dominating): Removes a buff from target! Deal EXT-DOWN for 2 turns!
+(Dominating, Risk 1): Deal DAZE for 1 turn!
+You and your target gain 1 Risk! You cannot spend risk this turn!
+(Risk 1): Deal SHAME and HORNY for 2 turns!
+(Cooldown 2): Deals Erotic Damage if impregnation was rolled this turn!
+(Risk 3): Deal POISON for 2 turns! 
+You take 7 Recoil! (Cooldown 4): Repeat this twice!
+Position. You take 9 Recoil! (Position, Risk 6): Repeat this twice! Always critically hits!

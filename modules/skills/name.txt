@@ -1,0 +1,529 @@
+Aim
+Approach
+Assail
+Bash
+Beatdown
+Charge
+Clobber
+Counter
+Guard
+Menace
+Ravage
+Recover
+Rush
+Strike
+Tackle
+Windmill
+Slam
+Sunder
+Uprising
+Hinotama
+Iaido
+Ibuki
+Ichimonji
+Issen
+Izuna
+Kage
+Kesagiri
+Kunai
+Log Decoy
+Meisui
+Mikiri
+Raigeki
+Raito
+Seigan
+Yokogiri
+Ten
+Chi
+Jin
+Artillery
+Backstab
+Backstep
+Barrage
+Chaser
+Cheap Shot
+Closer
+Deadeye
+Draw
+Eclipse
+Eviscerate
+Execute
+Rampage
+Rend
+Trip
+Unload
+Suppress
+Backshot
+All In
+Bankrupt
+Bet
+Censure
+Driftblade
+Dualcast
+Fade In
+Fever
+Full Moon
+Jackpot
+Quickcast
+Rebound
+Imbue
+Slots
+Spin
+Sprint
+Reactive
+Assault
+Awaken
+Capture
+Crash
+Enrage
+Fling
+Grasp
+Hold
+Leap
+Pounce
+Plunge
+Molest
+Ravager
+Reckless
+Smash
+Victimize
+Aikido
+Challenge
+Combo
+Conceit
+Drive Art
+Duelist
+Flourish
+Grace
+Hadoken
+Jab
+Outsmart
+Posture
+Rekka
+Riposte
+Sweep
+Tatsumaki
+Boast
+Bodyguard
+Cleanse
+Decimate
+Fortress
+Intercept
+Liberate
+Nihilism
+Malice
+Parry
+Prepare
+Protect
+Shelter
+Trance
+Provoke
+Vanguard
+Advance
+Assert
+Block
+Courage
+Delay
+Disrupt
+Flee
+Flip Over
+Headbutt
+Interrupt
+Knockback
+Lock In
+Respite
+Resist
+Sustain
+Wait
+Ambush
+Blind
+Cloak
+Dash
+Dispatch
+Explosive
+Expunge
+Getaway
+Lace
+Poison
+Rapture
+Snatch
+Snakebite
+Smog
+Venom
+Weave
+Bind Imp
+Flameshot
+Arson
+Blaze
+Combust
+Ember
+Explosion
+Fireball
+Firebolt
+Ignite
+Inferno
+Nine Hells
+Flames
+Smolder
+Seethe
+Breaker
+Blizzard
+Dive
+Frostbite
+Freeze
+Frost Nova
+Hail
+Hydroblast
+Ice Block
+Ice Shell
+Ice Wall
+Rain
+Refresh
+Scald
+Surf
+Waterbolt
+Whirlpool
+Ice Barrage
+Cold Snap
+Hecklers
+Alacrity
+Bewitch
+Blink
+Chaincast
+Electrify
+Flicker
+Lightning
+Storm
+Static
+Surge
+Teleport
+Thunder
+Reflect
+Strafe
+Switch
+Vivace
+Volt
+Galvanize
+Arclight
+Excalibur
+Arrow
+Barrier
+Bead
+Blade
+Bolt
+Boundry
+Cancel
+Cannon
+Comet
+Detect
+Donate
+Flare
+Fortell
+Palm
+Prayer
+Missile
+Rebuke
+Reversal
+Scan
+Silence
+Starfall
+Tri-Palm
+Word
+Bind Monster
+Bind Guards
+Bind Minions
+Annihilate
+Blast
+Chaos
+Claw
+Discord
+Drink
+Extinction
+Fogbank
+Invert
+Miasma
+Mind Sear
+Mind Flay
+Misfortune
+Scheme
+Shroud
+Slash
+Spike
+Transfer
+Well
+Carver
+Defender
+Gewehr
+Bind Golem
+Bind Tower
+Bind Shrine
+Bind Wall
+Blast
+Box
+Cage
+Domain
+Enchant
+Expansion
+Guardian
+Stone
+Wrath
+Forward
+Protect Me
+Unite
+Bind Ward
+Chant
+Chord
+Forgive
+Inspire
+Lullaby
+Overture
+Message
+Purity
+Sleep
+Sonata
+Restore
+Remove
+Trace
+Withstand
+Alchemy
+Blur
+Clone
+Channel
+Cunning
+Encore
+Extend
+Fester
+Force
+Observe
+Tarot
+Tribute
+Rigged
+Bind Demon
+Bind Kitsune
+Bind Succubi
+Allure
+Analyze
+Arouse
+Beguile
+Caress
+Deviant
+Disorient
+Dispirit
+Dominate
+Drain
+Enslave
+Excite
+Glamour
+Illusions
+Leash
+Mindcrush
+Offer
+Orgasm
+Siphon
+Anarchy
+Black Flame
+Browbeat
+Castigate
+Detonate
+Fire Breath
+Hatred
+Hellfire
+Ofuda
+Overheat
+Lash
+Meteor
+Nuclear
+Sacrifice
+Sunfire
+Terrorism
+Warmth
+Witness Me
+Aegis
+Breach
+Bubble
+Flow
+Frost Armor
+Ice Spear
+Majesty
+Riptide
+Splash
+Tsunami
+Undertow
+Wave
+Winter
+Accelerate
+Banish
+Haste
+Limit Break
+Overclock
+Storm Bolt
+Swap
+Therapy
+Thunderclap
+Voltage
+Warcry
+Witch Form
+Witch Time
+Annoy
+Blind
+Card
+Count
+Dice
+Dispel
+Flashbang
+Flush
+Foresight
+Glare
+Judgement
+Litany
+Pair
+Punish
+Record
+Restrain
+Smite
+Straight
+Vanquish
+Bind Tendril
+Blessing
+Charm
+Chastity
+Delusion
+Escort
+Fear
+Foxfire
+Frenzy
+Kneel
+Nymph
+Roleplay
+Seduce
+Tithe
+Vow
+Berserk
+Bless
+Cheer
+Crusade
+Desperation
+Divider
+Empower
+Entangle
+Eradicate
+Fervor
+Fortify
+Nen Buster
+Nen Fist
+Nen Orbit
+Nen Roar
+Nen Rush
+Nen Shot
+Obliterate
+Power
+Sunder
+Thrash
+Abscond
+Absolve
+Adjust
+Aerial
+Cure
+Declaration
+Enrich
+Esuna
+Flight
+Fortune
+Heal
+Mending
+Preserve
+Purge
+Release
+Revive
+Seal
+Shining Flare
+Tragedy
+Transform
+Accident
+Audit
+Calculate
+Clarity
+Confuse
+Coinflip
+Equalize
+Fraud
+Loan
+Mulligan
+Paradox
+Silence
+Umbrella
+Yami
+Wager
+Seconds
+Throw Clock
+Tick Tock
+Abandon
+Black Hole
+Condemn
+Crimson
+Detain
+Deprive
+Forlorn
+Gald Toss
+Gaze
+Grudge
+Hunger
+Insult
+Mug
+Omen
+Pilfer
+Red Orb
+Steal
+Scorn
+Spite
+Suffer
+Sulfur
+Taxes
+Toxin
+Vision
+Ultima
+Warp
+Abduct
+Crater
+Frighten
+Ram
+Roar
+Stalk
+Target
+Eject
+War Cry
+Drowsy
+Infuse
+Link
+Rehearsal
+Time Stop
+Fever
+Flight
+Power
+Ride
+Stomp
+Swipe
+Swing
+Hop
+Howl
+Indict
+Stander
+Switch
+Orgy
+Peck
+Praise
+Saliva
+Sharpen
+Snack
+Stinger
+Tail Sweep
+Wash
+Crag
+Downsize
+Enbiggen
+Exorcism
+Explode
+Phase
+Possession
+Trade
+Tri-Blast
