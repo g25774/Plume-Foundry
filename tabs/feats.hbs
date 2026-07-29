@@ -1,0 +1,46 @@
+{{! Feats Tab }}
+<section class='tab feats {{tab.cssClass}}' data-group='primary' data-tab='feats'> 
+
+<div> Edges </div>
+
+<div>
+    <a class='rollable' data-roll-type='talk' data-action='roguelike3' data-index='1'> ? </a>
+    <input type="text" name="system.edge1.NAME" placeholder="edge 1" style="width: 160px;" value="{{system.edge1.NAME}}" /> 
+    <input type="text" name="system.edge1.NOTES" placeholder="keywords" style="width: 370px;" value="{{system.edge1.NOTES}}" />
+    <a class='rollable' data-roll-type='talk' data-action='roll' 
+    data-label='{{system.edge1.NAME}} | {{system.edge1.NOTES}}'> SHOW </a>
+</div>
+
+<div>
+    <a class='rollable' data-roll-type='talk' data-action='roguelike3' data-index='2'> ? </a>
+    <input type="text" name="system.edge2.NAME" placeholder="edge 2" style="width: 160px;" value="{{system.edge2.NAME}}" /> 
+    <input type="text" name="system.edge2.NOTES" placeholder="keywords" style="width: 370px;" value="{{system.edge2.NOTES}}" />
+    <a class='rollable' data-roll-type='talk' data-action='roll' 
+    data-label='{{system.edge2.NAME}} | {{system.edge2.NOTES}}'> SHOW </a>
+</div>
+
+<div> Other Rolls </div>
+
+<button type="button" data-action="addItem" style="margin-top: 5px;">
+    <i class="fas fa-plus"></i> Add Entry
+</button>
+
+<ul class="repeating-list" style="list-style: none; padding: 0;">
+    {{#each system.inventory as |item index|}}
+        <li class="item-row" data-index="{{index}}" style="display: flex; flex-direction: row; gap: 5px; align-items: center; margin-bottom: 4px;">
+            <button type="button" data-action="deleteItem" data-index="{{index}}" style="flex: 0 0 auto; width: 30px; height: 26px; padding: 0;">
+                <i class="fas fa-trash"></i>
+            </button>
+            <input type="text" name="system.inventory.{{index}}.NOTES" value="{{item.NOTES}}" style="width: 500px;" placeholder="Feature">
+            <input type="hidden" name="system.inventory.{{index}}.NUMBER" value="{{item.NUMBER}}" style="width: 60px;" placeholder="#">
+            <a class='rollable' 
+                data-roll-type="talk"
+                data-label="{{item.NAME}} | {{item.NOTES}}" 
+                data-action='roll'> SHOW 
+            </a>
+        </li>
+    {{/each}}
+</ul>
+
+</section>
+

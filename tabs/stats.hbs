@@ -1,0 +1,658 @@
+{{! Stats Tab }}
+<section
+  class='tab stats {{tab.cssClass}}'
+  data-group='primary'
+  data-tab='stats'
+>
+
+<div class='grid grid-8col'>
+
+		<div class='bold'> Attributes 
+			<div class='bold form-stack'> 
+				<div class='resource-content bold'>
+				<span> STR </span>
+				<input
+				name='system.str.value'
+				type='number'
+				value='{{system.str.value}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> DEX </span>
+				<input
+				name='system.dex.value'
+				type='number'
+				value='{{system.dex.value}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> VIG </span>
+				<input
+				name='system.vig.value'
+				type='number'
+				value='{{system.vig.value}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> MAG </span>
+				<input
+				name='system.mag.value'
+				type='number'
+				value='{{system.mag.value}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> FTH </span>
+				<input
+				name='system.fth.value'
+				type='number'
+				value='{{system.fth.value}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> EVA </span>
+				<input
+				name='system.evasionTotal'
+				type='number'
+				value='{{system.evasionTotal}}'
+				data-dtype='Number'
+				placeholder='0'
+				disabled='true'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> GRIP </span>
+				<input
+				name='system.gripDC'
+				type='number'
+				value='{{system.gripDC}}'
+				data-dtype='Number'
+				placeholder='0'
+				disabled='true'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> Pointbuy </span>
+				<input
+				name='system.getCost'
+				type='number'
+				value='{{system.getCost}}'
+				data-dtype='Number'
+				placeholder='0'
+				disabled='true'
+				/>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class='bold'> - 
+			<div class='bold form-stack'> 
+				<div class='resource-content bold'>
+				<span> +STR </span>
+				<input
+				name='system.str.bonus'
+				type='number'
+				value='{{system.str.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +DEX </span>
+				<input
+				name='system.dex.bonus'
+				type='number'
+				value='{{system.dex.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +VIG </span>
+				<input
+				name='system.vig.bonus'
+				type='number'
+				value='{{system.vig.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +MAG </span>
+				<input
+				name='system.mag.bonus'
+				type='number'
+				value='{{system.mag.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +FTH </span>
+				<input
+				name='system.fth.bonus'
+				type='number'
+				value='{{system.fth.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +EVA </span>
+				<input
+				name='system.evasion.bonus'
+				type='number'
+				value='{{system.evasion.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> +GRIP </span>
+				<input
+				name='system.grip.bonus'
+				type='number'
+				value='{{system.grip.bonus}}'
+				data-dtype='Number'
+				placeholder='0'
+				/>
+				</div>
+
+				<div class='resource-content bold'>
+				<span> Max </span>
+				<input
+				name='system.maxCost'
+				type='number'
+				value='{{system.maxCost}}'
+				data-dtype='Number'
+				placeholder='0'
+				disabled='true'
+				/>
+				</div>
+
+			</div>
+		</div>
+
+	
+
+	<div class='bold'> Substats 
+		<div class='form-stack'> 
+
+			<div class='resource-content bold'>
+			<span> ACC </span>
+			<input
+			name='system.acc.value'
+			type='text'
+			value='{{system.acc.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> ATK </span>
+			<input
+			name='system.atk.value'
+			type='text'
+			value='{{system.atk.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> PRE </span>
+			<input
+			name='system.pre.value'
+			type='text'
+			value='{{system.pre.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> DEF </span>
+			<input
+			name='system.def.value'
+			type='text'
+			value='{{system.def.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> RES </span>
+			<input
+			name='system.res.value'
+			type='text'
+			value='{{system.res.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+			
+			<div class='resource-content bold'>
+			<span> CUTE </span>
+			<input
+			name='system.cuteTotal'
+			type='number'
+			value='{{system.cuteTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> ESCAPE DC</span>
+			<input
+			name='system.escapeDC'
+			type='number'
+			value='{{system.escapeDC}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> +Pointbuy </span>
+			<input
+			name='system.pointbuy.bonus'
+			type='number'
+			value='{{system.pointbuy.bonus}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+			
+		</div>
+	</div>
+		
+	
+	
+	<div class='bold'> -
+		<div class='form-stack'> 
+			
+			<div class='resource-content bold'>
+			<span> TGH </span>
+			<input
+			name='system.tgh.value'
+			type='text'
+			value='{{system.tgh.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> EXT </span>
+			<input
+			name='system.ext.value'
+			type='text'
+			value='{{system.ext.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> FER </span>
+			<input
+			name='system.fer.value'
+			type='text'
+			value='{{system.fer.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> WILL </span>
+			<input
+			name='system.will.value'
+			type='text'
+			value='{{system.will.value}}'
+			data-dtype='Number'
+			placeholder='0'
+			/>
+			</div>
+
+			<div>
+				<a class='rollable' data-roll-type='scan' data-action='roll' 
+				data-label=''
+				data-roll='{{system.strTotal}}' data-text='STR'
+				data-roll2='{{system.dexTotal}}' data-text2='DEX'
+				data-roll3='{{system.vigTotal}}' data-text3='VIG'
+				data-roll4='{{system.magTotal}}' data-text4='MAG'
+				data-roll5='{{system.fthTotal}}' data-text5='FTH'
+				data-broll='{{system.accTotal}}' data-btext='ACC'
+				data-broll2='{{system.atkTotal}}' data-btext2='ATK'
+				data-broll3='{{system.preTotal}}' data-btext3='PRE'
+				data-broll4='{{system.defTotal}}' data-btext4='DEF'
+				data-broll5='{{system.resTotal}}' data-btext5='RES'
+				data-broll6='{{system.tghTotal}}' data-btext6='TGH'
+				data-broll7='{{system.extTotal}}' data-btext7='EXT'
+				data-broll8='{{system.ferTotal}}' data-btext8='FER'
+				data-broll9='{{system.willTotal}}' data-btext9='WIL'
+				> SHOW STATS </a>
+			</div> 
+
+			<div></div>
+
+			<div></div>
+
+			<div>
+				<a class='rollable' data-action='roguelike4'> RANDOM STATS </a>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<div class='bold'> STAT-UP
+		<div class='form-stack'> 
+			
+			<div class='resource-content bold'>
+			<span> ACC-UP_ </span>
+			<input
+			name='system.acc.up' 
+			type='checkbox'
+			{{checked system.acc.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> ATK-UP_ </span>
+			<input
+			name='system.atk.up' 
+			type='checkbox'
+			{{checked system.atk.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> PRE-UP_ </span>
+			<input
+			name='system.pre.up' 
+			type='checkbox'
+			{{checked system.pre.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> DEF-UP_ </span>
+			<input
+			name='system.def.up' 
+			type='checkbox'
+			{{checked system.def.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> RES-UP_ </span>
+			<input
+			name='system.res.up' 
+			type='checkbox'
+			{{checked system.res.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> TGH-UP_ </span>
+			<input
+			name='system.tgh.up' 
+			type='checkbox'
+			{{checked system.tgh.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> EXT-UP_ </span>
+			<input
+			name='system.ext.up' 
+			type='checkbox'
+			{{checked system.ext.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> FER-UP_ </span>
+			<input
+			name='system.fer.up' 
+			type='checkbox'
+			{{checked system.fer.up}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> WILL-UP_ </span>
+			<input
+			name='system.will.up' 
+			type='checkbox'
+			{{checked system.will.up}}
+			/>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class='bold'> STAT-DOWN
+		<div class='form-stack'> 
+			
+			<div class='resource-content bold'>
+			<span> ACC-DOWN </span>
+			<input
+			name='system.acc.down' 
+			type='checkbox'
+			{{checked system.acc.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> ATK-DOWN </span>
+			<input
+			name='system.atk.down' 
+			type='checkbox'
+			{{checked system.atk.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> PRE-DOWN </span>
+			<input
+			name='system.pre.down' 
+			type='checkbox'
+			{{checked system.pre.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> DEF-DOWN </span>
+			<input
+			name='system.def.down' 
+			type='checkbox'
+			{{checked system.def.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> RES-DOWN </span>
+			<input
+			name='system.res.down' 
+			type='checkbox'
+			{{checked system.res.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> TGH-DOWN </span>
+			<input
+			name='system.tgh.down' 
+			type='checkbox'
+			{{checked system.tgh.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> EXT-DOWN </span>
+			<input
+			name='system.ext.down' 
+			type='checkbox'
+			{{checked system.ext.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> FER-DOWN </span>
+			<input
+			name='system.fer.down' 
+			type='checkbox'
+			{{checked system.fer.down}}
+			/>
+			</div>
+
+			<div class='resource-content bold'>
+			<span> WILL-DOWN </span>
+			<input
+			name='system.will.down' 
+			type='checkbox'
+			{{checked system.will.down}}
+			/>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class='bold'>
+		
+		<div class='form-stack' style='margin-bottom: 30px;'> 
+
+			<span> Results </span>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-move="second"
+			data-label='**WIN** You gain 1d4 Levels!'
+			data-label2="Level Up"
+			data-roll="1d4" 
+			data-label3="Catch Up"
+			data-roll3="3d6" 
+			data-action='roll'> WIN
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-move="second"
+			data-label='**LOSE** You learn a Lore!'
+			data-label2="Level Up"
+			data-roll="0" 
+			data-label3="Catch Up"
+			data-roll3="3d6" 
+			data-action='roll'> LOSE
+			</a>
+
+			<span></span>
+			<span></span>
+			[Combat End]
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='You were defeated, gaining 2 Fatigue and Arousal!
+			Your dom gains 20d4! Domination!'
+			data-label2="Dom"
+			data-roll="20d4x" 
+			data-action='roll'> Lewd Defeat
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='You post fight an enemy, dealing 10d4! 
+			Domination and dealing 1 Fatigue/Arousal to them!'
+			data-label2="Dom"
+			data-roll="10d4x" 
+			data-action='roll'> Post Fight
+			</a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='You submit, suffering 20d4! Domination!
+			You clear 1 Fatigue and all Arousal!'
+			data-label2="Dom"
+			data-roll="20d4x" 
+			data-action='roll'> Submission
+			</a>
+
+		</div>
+
+	</div>
+	
+	<div class='bold'> 
+
+		<div class='form-stack' style='margin-bottom: 30px;'> 
+			
+			[Dom Action]
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='50 Domination | You steal from your target!'> Loot </a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='100 Domination | Requires 100 Domination.
+			You enslave a target character with a Collar!
+			They suffer WILL-DOWN in combats against you!'> Enslave </a>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='100 Domination | Target loses 10d4! levels, and you "WIN" again!'
+			data-label2="Dom"
+			data-roll="10d4x" 
+			data-action='roll'> Level Drain
+			</a>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='200 Domination | You start/force a bond on a character! Impregnation is doubled!'> Bond </a>
+
+			<span> ________ </span>
+
+			<a class='rollable' 
+			data-roll-type="hit"
+			data-label='At 100+, suffer a random encounter!' 
+			data-label2="Cute"
+			data-roll="d100+{{system.cuteTotal}}+{{system.cuteTotal}}+{{system.cuteTotal}}" 
+			data-action='roll'> Dangerous
+			</a>
+
+		</div>
+
+	</div>
+
+</div>
+
+</section>

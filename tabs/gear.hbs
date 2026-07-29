@@ -1,0 +1,343 @@
+{{! Gear Tab }}
+<section class='tab gear {{tab.cssClass}}' data-group='primary' data-tab='gear'>
+
+<div> Held Weapons </div>
+
+<div>
+	<select name="system.weapon1.HIT" style="width: 85px;">
+  		{{selectOptions hitOptions selected=system.weapon1.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.weapon1.NAME" placeholder="weapon 1" style="width: 80px;" value="{{system.weapon1.NAME}}" /> 
+	<input type="text" name="system.weapon1.NOTES" placeholder="keywords" style="width: 260px;" value="{{system.weapon1.NOTES}}" />
+	<input type="text" name="system.weapon1.DAMAGE" style="width: 60px;" value="{{system.weapon1.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="atk"
+		data-label= "{{system.weapon1.NAME}}. {{system.weapon1.NOTES}}"
+		data-text="Attack"
+		data-roll="d12+{{system.weapon1Scaling}}+{{system.accTotal}}"
+		data-text2="Damage"
+		data-roll2="{{system.weapon1.DAMAGE}}+{{system.weapon1Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.weapon1Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.weapon1.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		ATTACK 
+	</a>
+	<span> | </span>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.weapon1.NAME}}. {{system.weapon1.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.weapon1.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.weapon1.DAMAGE}}+{{system.weapon1.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.weapon1.DAMAGE}}+{{system.weapon1.DAMAGE}}+{{system.weapon1.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.weapon1.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div>
+	<select name="system.weapon2.HIT" style="width: 85px;">
+  		{{selectOptions hitOptions selected=system.weapon2.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.weapon2.NAME" placeholder="weapon 2" style="width: 80px;" value="{{system.weapon2.NAME}}" /> 
+	<input type="text" name="system.weapon2.NOTES" placeholder="keywords" style="width: 260px;" value="{{system.weapon2.NOTES}}" />
+	<input type="text" name="system.weapon2.DAMAGE" style="width: 60px;" value="{{system.weapon2.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="atk"
+		data-label= "{{system.weapon2.NAME}}. {{system.weapon2.NOTES}}"
+		data-text="Attack"
+		data-roll="d12+{{system.weapon2Scaling}}+{{system.accTotal}}"
+		data-text2="Damage"
+		data-roll2="{{system.weapon2.DAMAGE}}+{{system.weapon2Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.weapon2Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.weapon2.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		ATTACK 
+	</a>
+	<span> | </span>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.weapon2.NAME}}. {{system.weapon2.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.weapon2.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.weapon2.DAMAGE}}+{{system.weapon2.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.weapon2.DAMAGE}}+{{system.weapon2.DAMAGE}}+{{system.weapon2.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.weapon2.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div> 
+	Skimpy? <input type="checkbox" name="system.cute.up" {{checked system.cute.up}} > 
+	<input type="text" name="system.armor.NAME" placeholder="armor" value="{{system.armor.NAME}}" style="width: 160px;" /> 
+	<input type="text" name="system.armor.NOTES" placeholder="armor notes" style="width: 260px;" value="{{system.armor.NOTES}}"/>
+	Cute? <input type="checkbox" name="system.cute.yes" {{checked system.cute.yes}} >
+	<a class='rollable' data-roll-type='scan' data-action='roll' 
+	data-label= '{{system.armor.NAME}} | {{system.armor.NOTES}}'
+	data-roll='{{system.healthTotal}}' data-text='HEALTH'
+	data-roll2='{{system.spiritTotal}}' data-text2='SPIRIT'
+	data-roll3='{{system.cuteTotal}}' data-text3='CUTE'
+	data-roll4='{{system.evasionTotal}}' data-text4='EVA'
+	data-roll5='{{system.gripDC}}' data-text5='GRIP'
+	> SHOW </a>
+</div>
+
+<div> Custom Attacks </div>
+
+<div>
+	<select name="system.weapon3.HIT" style="width: 85px;">
+  		{{selectOptions hitOptions selected=system.weapon3.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.weapon3.NAME" placeholder="weapon 1" style="width: 80px;" value="{{system.weapon3.NAME}}" /> 
+	<input type="text" name="system.weapon3.NOTES" placeholder="keywords" style="width: 260px;" value="{{system.weapon3.NOTES}}" />
+	<input type="text" name="system.weapon3.DAMAGE" style="width: 60px;" value="{{system.weapon3.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="atk"
+		data-label= "{{system.weapon3.NAME}}. {{system.weapon3.NOTES}}"
+		data-text="Attack"
+		data-roll="d12+{{system.weapon3Scaling}}+{{system.accTotal}}"
+		data-text2="Damage"
+		data-roll2="{{system.weapon3.DAMAGE}}+{{system.weapon3Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.weapon3Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.weapon3.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		ATTACK 
+	</a>
+	<span> | </span>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.weapon3.NAME}}. {{system.weapon3.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.weapon3.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.weapon3.DAMAGE}}+{{system.weapon3.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.weapon3.DAMAGE}}+{{system.weapon3.DAMAGE}}+{{system.weapon3.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.weapon3.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div>
+	<select name="system.weapon4.HIT" style="width: 85px;">
+  		{{selectOptions hitOptions selected=system.weapon4.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.weapon4.NAME" placeholder="weapon 1" style="width: 80px;" value="{{system.weapon4.NAME}}" /> 
+	<input type="text" name="system.weapon4.NOTES" placeholder="keywords" style="width: 260px;" value="{{system.weapon4.NOTES}}" />
+	<input type="text" name="system.weapon4.DAMAGE" style="width: 60px;" value="{{system.weapon4.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="atk"
+		data-label= "{{system.weapon4.NAME}}. {{system.weapon4.NOTES}}"
+		data-text="Attack"
+		data-roll="d12+{{system.weapon4Scaling}}+{{system.accTotal}}"
+		data-text2="Damage"
+		data-roll2="{{system.weapon4.DAMAGE}}+{{system.weapon4Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.weapon4Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.weapon4.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		ATTACK 
+	</a>
+	<span> | </span>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.weapon4.NAME}}. {{system.weapon4.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.weapon4.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.weapon4.DAMAGE}}+{{system.weapon4.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.weapon4.DAMAGE}}+{{system.weapon4.DAMAGE}}+{{system.weapon4.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.weapon4.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div>
+	<select name="system.weapon5.HIT" style="width: 85px;">
+  		{{selectOptions hitOptions selected=system.weapon5.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.weapon5.NAME" placeholder="weapon 1" style="width: 80px;" value="{{system.weapon5.NAME}}" /> 
+	<input type="text" name="system.weapon5.NOTES" placeholder="keywords" style="width: 260px;" value="{{system.weapon5.NOTES}}" />
+	<input type="text" name="system.weapon5.DAMAGE" style="width: 60px;" value="{{system.weapon5.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="atk"
+		data-label= "{{system.weapon5.NAME}}. {{system.weapon5.NOTES}}"
+		data-text="Attack"
+		data-roll="d12+{{system.weapon5Scaling}}+{{system.accTotal}}"
+		data-text2="Damage"
+		data-roll2="{{system.weapon5.DAMAGE}}+{{system.weapon5Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.weapon5Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.weapon5.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		ATTACK 
+	</a>
+	<span> | </span>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.weapon5.NAME}}. {{system.weapon5.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.weapon5.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.weapon5.DAMAGE}}+{{system.weapon5.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.weapon5.DAMAGE}}+{{system.weapon5.DAMAGE}}+{{system.weapon5.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.weapon5.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div> Save Effects </div>
+
+<div> 
+	<select name="system.save1.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save1.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save1.VS" style="width: 80px;">
+  		{{selectOptions saveVSOptions selected=system.save1.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save1.NAME" placeholder="save 1" style="width: 80px;" value="{{system.save1.NAME}}" /> 
+	<input type="text" name="system.save1.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save1.NOTES}}" />
+	<input type="text" name="system.save1.DAMAGE" style="width: 60px;" value="{{system.save1.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="save"
+		data-vs="{{system.save1.VS}}"
+		data-label= "DC [[7+{{system.save1Scaling}}+{{system.extTotal}}]] | {{system.save1.NAME}} | {{system.save1.NOTES}}"
+		data-text="Save"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save1.DAMAGE}}+{{system.save1Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.save1Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save1.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		CAST 
+	</a>
+</div>
+
+<div> 
+	<select name="system.save2.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save2.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save2.VS" style="width: 80px;">
+  		{{selectOptions saveVSOptions selected=system.save2.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save2.NAME" placeholder="save 2" style="width: 80px;" value="{{system.save2.NAME}}" /> 
+	<input type="text" name="system.save2.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save2.NOTES}}" />
+	<input type="text" name="system.save2.DAMAGE" style="width: 60px;" value="{{system.save2.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="save"
+		data-vs="{{system.save2.VS}}"
+		data-label= "DC [[7+{{system.save2Scaling}}+{{system.extTotal}}]] | {{system.save2.NAME}} | {{system.save2.NOTES}}"
+		data-text="Save DC"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save2.DAMAGE}}+{{system.save2Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.save2Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save2.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		CAST 
+	</a>
+
+</div>
+
+<div> 
+	<select name="system.save3.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save3.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save3.VS" style="width: 80px;">
+  		{{selectOptions saveVSOptions selected=system.save3.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save3.NAME" placeholder="save 3" style="width: 80px;" value="{{system.save3.NAME}}" /> 
+	<input type="text" name="system.save3.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save3.NOTES}}" />
+	<input type="text" name="system.save3.DAMAGE" style="width: 60px;" value="{{system.save3.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="save"
+		data-vs="{{system.save3.VS}}"
+		data-label= "DC [[7+{{system.save3Scaling}}+{{system.extTotal}}]] | {{system.save3.NAME}} | {{system.save3.NOTES}}"
+		data-text="Save DC"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save3.DAMAGE}}+{{system.save3Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.save3Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save3.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		CAST 
+	</a>
+</div>
+
+<div> 
+	<select name="system.save4.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save4.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save4.VS" style="width: 80px;">
+  		{{selectOptions saveVSOptions selected=system.save4.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save4.NAME" placeholder="save 4" style="width: 80px;" value="{{system.save4.NAME}}" /> 
+	<input type="text" name="system.save4.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save4.NOTES}}" />
+	<input type="text" name="system.save4.DAMAGE" style="width: 60px;" value="{{system.save4.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="save"
+		data-vs="{{system.save4.VS}}"
+		data-label= "DC [[7+{{system.save4Scaling}}+{{system.extTotal}}]] | {{system.save4.NAME}} | {{system.save4.NOTES}}"
+		data-text="Save DC"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save4.DAMAGE}}+{{system.save4Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.save4Scaling}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save4.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		CAST 
+	</a>
+</div>
+
+</section>

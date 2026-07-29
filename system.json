@@ -1,0 +1,67 @@
+{
+    "id": "plume",
+    "title": "Plume",
+    "description": "Plume, based on The Universal Tabletop System for FoundryVTT, by Metamorphic Digital.",
+    "authors": [
+		{
+		  "name": "npc",
+		  "discord": "npc5554"
+		}
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "",
+            "thumbnail": ""
+        }
+    ],
+    "version": "1.2.0",
+    "compatibility": {
+        "minimum": "13.351",
+        "verified": "14.354"
+    },
+    "esmodules": [
+        "plume.mjs"
+    ],
+    "styles": [
+        "plume.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "packs": [],
+    "packFolders": [],
+    "manifest": "",
+    "download": "",
+    "background": "",
+    "initiative": "1d12 + @dexTotal + @magTotal + @fatigueTotal",
+    "grid": {
+		"type": 1,
+		"distance": 5,
+		"units": "ft",
+		"diagonals": 0
+    },
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "spirit",
+    "documentTypes": {
+        "Actor": {
+            "character": {}
+        },
+        "Item": {
+            "item": {}
+        },
+        "Card": {},
+        "Cards": {},
+        "Combat": {},
+        "Combatant": {
+            "player":{}
+        }
+    },
+    "flags": {
+        "hotReload": false
+    }
+}

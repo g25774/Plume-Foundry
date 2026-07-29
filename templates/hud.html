@@ -1,0 +1,34 @@
+<section class="plume-hud-content">
+    {{#if img}}
+    <div class="hud-header">
+        <img src="{{img}}" width="150" height="150" style="border-radius: 4px;"/>
+    </div>
+    
+    <div class="hud-body" style="flex: 1; display: flex; flex-direction: column;">
+        <div class="actor-name" style="font-size: 14px; font-weight: bold; margin-bottom: 2px;">{{name}}</div>
+        <div class="actor-name" style="font-size: 12px; font-weight: bold; margin-bottom: 2px;">LV {{level}} {{race}} {{class}}</div>
+        <div class="actor-name" style="font-size: 12px; font-weight: bold; margin-bottom: 2px;">{{boss}} {{scaling}} {{type}}</div>
+        <div class="hud-bars" style="display: flex; flex-direction: column; gap: 3px;">
+            
+            <!-- Spirit Bar -->
+            <div class="bar-container">
+                <div class="bar-fill spirit" style="width: {{spiritPct}}%;"></div>
+                <span class="bar-label"> SP: {{spirit}} / {{spMax}}</span>
+            </div>
+            
+            <!-- Risk Bar -->
+            <div class="bar-container">
+                <div class="bar-fill risk" style="width: {{riskPct}}%;"></div>
+                <span class="bar-label"> RISK: {{risk}}</span>
+            </div>
+
+            <!-- Health Bar -->
+            <div class="bar-container">
+                <div class="bar-fill hp" style="width: {{hpPct}}%;"></div>
+                <span class="bar-label"> HP: {{hp}} / {{hpMax}}</span>
+            </div>
+            
+        </div>
+    </div>
+    {{/if}}
+</section>

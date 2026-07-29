@@ -1,0 +1,375 @@
+{{! Sheet Header }}
+
+<header class='sheet-header'>
+	
+	<div class='grid grid-8col'>
+		<div class='grid form-stack' style="position: relative;">
+			<img 
+				class="profile-img token-art-clickable" 
+				src="{{actor.prototypeToken.texture.src}}" 
+				data-action="editTokenArt" 
+				title="Click to Upload Token Image"
+				height="100" 
+				width="100" 
+				style="cursor:pointer; border: 1px solid #777; border-radius: 4px; position: relative; z-index: 100; pointer-events: all;" 
+			/>
+		</div>
+
+		<div class='grid form-stack'>
+			<input
+			name='name'
+			type='text'
+			value='{{actor.name}}'
+			placeholder='Name'
+			/>
+
+			<select name="system.progression.alignment" >
+  				{{selectOptions alignmentOptions selected=system.progression.alignment valueAttr="value" labelAttr="label"}}
+			</select>
+
+			<select name="system.progression.boss">
+  				{{selectOptions bossOptions selected=system.progression.boss valueAttr="value" labelAttr="label"}}
+			</select>
+			
+		</div>
+		
+		<div class='grid form-stack'>
+			<span style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+				Level:
+				<input
+				name='system.progression.level'
+				type='text'
+				value='{{system.progression.level}}'
+				placeholder='Level'
+				style="width: 50px; text-align: center;"
+				/>
+			</span>
+			
+
+			<input
+			name='system.progression.race'
+			type='text'
+			value='{{system.progression.race}}'
+			placeholder='Race'
+			/>
+			
+			<select name="system.progression.scaling">
+  				{{selectOptions scalingOptions selected=system.progression.scaling valueAttr="value" labelAttr="label"}}
+			</select>
+			
+		</div>
+		
+		<div class='grid form-stack'>
+
+			<span style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+				Rank:
+				<input
+				name='system.progression.rank'
+				type='text'
+				value='{{system.progression.rank}}'
+				placeholder='Rank'
+				style="width: 50px; text-align: center;"
+				/>
+			</span>
+
+			<input
+			name='system.progression.class'
+			type='text'
+			value='{{system.progression.class}}'
+			placeholder='Class'
+			/>
+
+			<select name="system.progression.type">
+  				{{selectOptions breakOptions selected=system.progression.type valueAttr="value" labelAttr="label"}}
+			</select>
+			
+		</div>
+		
+	</div>
+	
+	<div class='details grid grid-7col flex-between'>
+		<div class='resource-content bold'>
+			<span> {{localize 'PLUME.Ability.Str.long'}} </span>
+			<input
+			name='STR'
+			type='number'
+			value='{{system.strTotal}}'
+			data-dtype='Number'
+			placeholder='0' 
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content bold'>
+			<span> {{localize 'PLUME.Ability.Dex.long'}} </span>
+			<input
+			name='DEX'
+			type='number'
+			value='{{system.dexTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content bold'>
+			<span> {{localize 'PLUME.Ability.Vig.long'}} </span>
+			<input
+			name='VIG'
+			type='number'
+			value='{{system.vigTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content bold'>
+			<span> {{localize 'PLUME.Ability.Mag.long'}} </span>
+			<input
+			name='MAG'
+			type='number'
+			value='{{system.magTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content bold'>
+			<span> {{localize 'PLUME.Ability.Fth.long'}} </span>
+			<input
+			name='FTH'
+			type='number'
+			value='{{system.fthTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span> Evasion </span>
+			<input
+            type='number'
+            name='system.evasionTotal'
+            value='{{system.evasionTotal}}'
+            data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+         </div>
+		 <div class='resource-content'>
+			<span> Grip </span>
+			<input
+            type='number'
+            name='system.gripDC'
+            value='{{system.gripDC}}'
+            data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+         </div>
+	</div>
+	
+	<div class='details grid grid-9col flex-between'>
+		<div class='resource-content'>
+			<span class='statfont'> Accuracy </span>
+			<input
+			name='Accuracy'
+			type='number'
+			value='{{system.accTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Attack </span>
+			<input
+			name='Attack'
+			type='number'
+			value='{{system.atkTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Precision </span>
+			<input
+			name='Precision'
+			type='number'
+			value='{{system.preTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Defense </span>
+			<input
+			name='Defense'
+			type='number'
+			value='{{system.defTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Resistance </span>
+			<input
+			name='Resistance'
+			type='number'
+			value='{{system.resTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Toughness </span>
+			<input
+			name='Toughness'
+			type='number'
+			value='{{system.tghTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Expertise </span>
+			<input
+			name='Expertise'
+			type='number'
+			value='{{system.extTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Ferocity </span>
+			<input
+			name='Ferocity'
+			type='number'
+			value='{{system.ferTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+		<div class='resource-content'>
+			<span class='statfont'> Willpower </span>
+			<input
+			name='Willpower'
+			type='number'
+			value='{{system.willTotal}}'
+			data-dtype='Number'
+			placeholder='0'
+			disabled='true'
+			/>
+        </div>
+	</div>
+	
+    {{! The grid classes are defined in scss/global/_grid.scss. To use,
+      use both the "grid" and "grid-Ncol" class where "N" can be any number
+      from 1 to 12 and will create that number of columns.  }}
+    <div class='resources grid grid-4col'>
+
+      {{! "flex-group-center" is also defined in the _grid.scss file
+        and it will add a small amount of padding, a border, and will
+        center all of its child elements content and text. }}
+		<div class='resource flex-group-center'>
+			<label for='system.health.value' class='resource-label'>
+			  {{localize 'PLUME.Actor.base.FIELDS.health.value.label'}}
+			</label>
+        <div class='resource-content flexrow flex-center flex-between'>
+			<input
+            type='text'
+            name='system.health.value'
+            value='{{system.health.value}}'
+            data-dtype='Number'
+			/>
+			<span> | </span>
+			<input
+            type='text'
+            name='system.healthTotal'
+            value='{{system.healthTotal}}'
+            data-dtype='Number'
+			disabled='true'
+			/>
+        </div>
+		</div>
+
+		<div class='resource flex-group-center'>
+			<label for='system.spirit.value' class='resource-label'>
+			  {{localize 'PLUME.Actor.base.FIELDS.spirit.value.label'}}
+			</label>
+        <div class='resource-content flexrow flex-center flex-between'>
+			<input
+            type='text'
+            name='system.spirit.value'
+            value='{{system.spirit.value}}'
+            data-dtype='Number'
+			/>
+			<span> | </span>
+			<input
+            type='text'
+            name='system.spiritTotal'
+            value='{{system.spiritTotal}}'
+            data-dtype='Number'
+			disabled='true'
+			/>
+        </div>
+		</div>
+
+		<div class='resource flex-group-center'>
+        {{#if (eq actor.type 'character')}}
+          <label class='resource-label'>
+            {{localize 'PLUME.Actor.Character.FIELDS.attributes.risk.value.label'}}
+          </label>
+        <div class='resource-content flexrow flex-center flex-between'>
+			<input
+            type='text'
+            name='system.risk.value'
+            value='{{system.risk.value}}'
+            data-dtype='Number'
+			/>
+			<span> | </span>
+			<input
+			  type='text'
+			  name='maxrisk'
+			  value='6'
+			  data-dtype='Number'
+			  disabled='true'
+			/>
+        </div>
+		</div>
+		
+		{{/if}}
+		
+		<div class='resource flex-group-center bold'>
+			<label>
+				Fatigue : Arousal
+			</label>
+        <div class='flexrow flex-center flex-between'>
+			<input
+            type='text'
+            name='system.fatigue.value'
+            value='{{system.fatigue.value}}'
+            data-dtype='Number'
+			/>
+			<span> | </span>
+			<input
+			  type='text'
+			  name='system.arousal.value'
+			  value='{{system.arousal.value}}'
+			  data-dtype='Number'
+			/>
+        </div>
+		</div>
+        
+      </div>
+	  
+    </div>
+  </div>
+</header>
+

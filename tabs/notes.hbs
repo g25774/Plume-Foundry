@@ -1,0 +1,168 @@
+{{! Notes Tab }}
+<section
+  class='tab notes {{tab.cssClass}}'
+  data-group='primary'
+  data-tab='notes'
+>
+<div> Other Notes </div>
+
+<div class='grid grid-8col'>
+	
+    <div class='resource-content bold'>
+        <span> Athletics
+        <input
+        name='system.progression.athletics' 
+        type='checkbox'
+        {{checked system.progression.athletics}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Awareness
+        <input
+        name='system.progression.awareness' 
+        type='checkbox'
+        {{checked system.progression.awareness}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Bartering
+        <input
+        name='system.progression.bartering' 
+        type='checkbox'
+        {{checked system.progression.bartering}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Knowledge
+        <input
+        name='system.progression.knowledge' 
+        type='checkbox'
+        {{checked system.progression.knowledge}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Larceny
+        <input
+        name='system.progression.larceny' 
+        type='checkbox'
+        {{checked system.progression.larceny}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Persuasion 
+        <input
+        name='system.progression.persuasion' 
+        type='checkbox'
+        {{checked system.progression.persuasion}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Sneaking 
+        <input
+        name='system.progression.sneaking' 
+        type='checkbox'
+        {{checked system.progression.sneaking}}
+        />
+        </span>
+	</div>
+
+</div>
+
+<div class='grid grid-8col'>
+	
+    <div class='resource-content bold'>
+        <span> Alchemy
+        <input
+        name='system.progression.alchemy' 
+        type='checkbox'
+        {{checked system.progression.alchemy}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Blacksmith
+        <input
+        name='system.progression.blacksmith' 
+        type='checkbox'
+        {{checked system.progression.blacksmith}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Cooking
+        <input
+        name='system.progression.cooking' 
+        type='checkbox'
+        {{checked system.progression.cooking}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Enchanting
+        <input
+        name='system.progression.enchanting' 
+        type='checkbox'
+        {{checked system.progression.enchanting}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Holycraft
+        <input
+        name='system.progression.holycraft' 
+        type='checkbox'
+        {{checked system.progression.holycraft}}
+        />
+        </span>
+	</div>
+
+    <div class='resource-content bold'>
+        <span> Technology 
+        <input
+        name='system.progression.technology' 
+        type='checkbox'
+        {{checked system.progression.technology}}
+        />
+        </span>
+	</div>
+
+</div>
+
+<button type="button" data-action="addItem3" style="margin-top: 5px;">
+    <i class="fas fa-plus"></i> Add Entry
+</button>
+
+<ul class="repeating-list" style="list-style: none; padding: 0;">
+    {{#each system.inventory3 as |item index|}}
+        <li class="item-row" data-index="{{index}}" style="display: flex; flex-direction: row; gap: 5px; align-items: center; margin-bottom: 4px;">
+            <button type="button" data-action="deleteItem3" data-index="{{index}}" style="flex: 0 0 auto; width: 30px; height: 26px; padding: 0;">
+                <i class="fas fa-trash"></i>
+            </button>
+            <input type="text" name="system.inventory3.{{index}}.NOTES" value="{{item.NOTES}}" style="width: 500px;" placeholder="Note">
+            <input type="hidden" name="system.inventory3.{{index}}.NUMBER" value="{{item.NUMBER}}" style="width: 60px;" placeholder="#">
+            <a class='rollable' 
+                data-roll-type="talk"
+                data-label="{{item.NOTES}}" 
+                data-action='roll'> SHOW 
+            </a>
+        </li>
+    {{/each}}
+</ul>
+
+</section>

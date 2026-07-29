@@ -1,0 +1,372 @@
+.application.sheet.plume {
+  max-height: 90%;
+
+  &.actor, &.item {
+    .window-content {
+      padding: 0;
+    }
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+      opacity: 1; 
+      appearance: auto;
+  }
+
+  input[type=number]:disabled::-webkit-inner-spin-button,
+  input[type=number]:disabled::-webkit-outer-spin-button {
+      display: none;
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  .sheet-header {
+    img {
+      border: none;
+      flex: 0 0 100px;
+      object-fit: contain;
+    }
+    input[name="example"] {
+      height: 2.5em;
+      font-size: 2rem;
+    }
+  }
+  .tab {
+    font-size: 13px;
+    height: 100%;
+    padding: 0px;
+    flex: 0;
+    border: none;
+    gap: 3px;
+  }
+  .tab[data-tab="example"] {
+    ul {
+      list-style: none;
+      padding-left: 5px;
+    }
+    .itemHeader {
+      border-bottom: 1px solid var(--color-border-light-primary);
+      .type-label {
+        font-size: 20px;
+      }
+      .document-controls {
+        flex: 0 0 100px;
+      }
+    }
+    .item {
+      img {
+        border: none;
+        flex: 0 0 30px;
+        padding-right: 5px;
+      }
+      .document-controls {
+        flex: 0 0 50px;
+      }
+    }
+  }
+}
+
+.item-controls {
+    display: flex;
+    flex: 0 0 50px;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.item-control {
+    cursor: pointer;
+    color: #4b4a44; /* Standard Foundry grey-brown */
+}
+
+.grid,
+.grid-2col {
+  display: grid;
+  grid-column: span 2/span 2;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  margin: 3px 0px;
+  padding: 0;
+}
+
+.grid-3col {
+  grid-column: span 3/span 3;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-4col {
+  grid-column: span 4/span 4;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-5col {
+  grid-column: span 5/span 5;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-6col {
+  grid-column: span 6/span 6;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-7col {
+  grid-column: span 7/span 7;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-8col {
+  grid-column: span 8/span 8;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.grid-9col {
+  grid-column: span 9/span 9;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.grid-10col {
+  grid-column: span 10/span 10;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-11col {
+  grid-column: span 11/span 11;
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.grid-12col {
+  grid-column: span 12/span 12;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-start-2 {
+  grid-column-start: 2;
+}
+
+.grid-start-3 {
+  grid-column-start: 3;
+}
+
+.grid-start-4 {
+  grid-column-start: 4;
+}
+
+.grid-start-5 {
+  grid-column-start: 5;
+}
+
+.grid-start-6 {
+  grid-column-start: 6;
+}
+
+.grid-start-7 {
+  grid-column-start: 7;
+}
+
+.grid-start-8 {
+  grid-column-start: 8;
+}
+
+.grid-start-9 {
+  grid-column-start: 9;
+}
+
+.grid-start-10 {
+  grid-column-start: 10;
+}
+
+.grid-start-11 {
+  grid-column-start: 11;
+}
+
+.grid-start-12 {
+  grid-column-start: 12;
+}
+
+.grid-span-2 {
+  grid-column-end: span 2;
+}
+
+.grid-span-3 {
+  grid-column-end: span 3;
+}
+
+.grid-span-4 {
+  grid-column-end: span 4;
+}
+
+.grid-span-5 {
+  grid-column-end: span 5;
+}
+
+.grid-span-6 {
+  grid-column-end: span 6;
+}
+
+.grid-span-7 {
+  grid-column-end: span 7;
+}
+
+.grid-span-8 {
+  grid-column-end: span 8;
+}
+
+.grid-span-9 {
+  grid-column-end: span 9;
+}
+
+.grid-span-10 {
+  grid-column-end: span 10;
+}
+
+.grid-span-11 {
+  grid-column-end: span 11;
+}
+
+.grid-span-12 {
+  grid-column-end: span 12;
+}
+
+
+.form-stack {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  /* Optional: adds space between items */
+  gap: 5px; 
+}
+
+.form-stack2 {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  /* Optional: adds space between items */
+  gap: 10px; 
+}
+
+.form-unstack {
+  display: flex;
+  flex-direction: row; /* Stacks items non-vertically */
+  /* Optional: adds space between items */
+  gap: 5px; 
+}
+
+.flex-group-center,
+.flex-group-left,
+.flex-group-right {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-group-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.flex-group-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.flexshrink {
+  flex: 0;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flexlarge {
+  flex: 2;
+}
+
+.align-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.align-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.align-center {
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.plume-hud {
+    position: fixed !important;
+    top: 10px !important; /* This hugs the bottom */
+    left: 700px !important;  /* Clears the player list */
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid #444;
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 100;
+    pointer-events: none;
+    min-width: 400px;
+    min-height: 150px;
+    height: auto !important;
+    top: auto !important; /* Prevents centering */
+}
+
+.plume-hud-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.actor-name {
+    font-size: 10px;
+    font-weight: bold;
+    color: #eee;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.hud-bars {
+    display: flex;
+    flex-direction: column; /* Puts bars side-by-side to stay low */
+    gap: 6px;
+}
+
+.bar-container {
+    position: relative;
+    height: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #222;
+    border-radius: 2px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.bar-fill { height: 100%; transition: width 0.3s ease; z-index: 1; }
+.bar-fill.hp { background: #80FF00; }
+.bar-fill.spirit { background: #80B3FF; }
+.bar-fill.risk { background: #ffae00; }
+
+.bar-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important; /* Forces white text */
+    text-shadow: 1px 1px 1px  black; /* Makes it readable against any color */
+    line-height: 18px; /* Matches your bar height */
+    
+    z-index: 5; /* Forces it above the bar-fill */
+    pointer-events: none; /* Prevents the text from blocking clicks */
+}
+
+
+
+
+

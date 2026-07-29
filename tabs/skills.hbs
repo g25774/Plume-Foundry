@@ -1,0 +1,322 @@
+{{! Skills Tab }}
+<section
+  class='tab skills flexcol {{tab.cssClass}}'
+  data-group='primary'
+  data-tab='skills'
+>
+
+<div> Combat Skills </div>
+
+<div> 
+	<a class='rollable' data-roll-type='talk' data-action='roguelike2' data-index='1'> ? </a>
+	<select name="system.skill1.TYPE" style="width: 100px;">
+  		{{selectOptions skillOptions selected=system.skill1.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.skill1.NAME" placeholder="skill 1" style="width: 100px;" value="{{system.skill1.NAME}}" /> 
+	<input type="text" name="system.skill1.NOTES" placeholder="effect notes" style="width: 300px;" value="{{system.skill1.NOTES}}" />
+	<a class='rollable' data-roll-type='talk' data-action='roll' 
+	data-label='{{system.skill1.TYPE}} | {{system.skill1.NAME}} | {{system.skill1.NOTES}}'> SHOW </a>
+</div>
+<div> 
+	<a class='rollable' data-roll-type='talk' data-action='roguelike2' data-index='2'> ? </a>
+	<select name="system.skill2.TYPE" style="width: 100px;">
+  		{{selectOptions skillOptions selected=system.skill2.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.skill2.NAME" placeholder="skill 1" style="width: 100px;" value="{{system.skill2.NAME}}" /> 
+	<input type="text" name="system.skill2.NOTES" placeholder="effect notes" style="width: 300px;" value="{{system.skill2.NOTES}}" />
+	<a class='rollable' data-roll-type='talk' data-action='roll' 
+	data-label='{{system.skill2.TYPE}} | {{system.skill2.NAME}} | {{system.skill2.NOTES}}'> SHOW </a>
+</div>
+<div> 
+	<a class='rollable' data-roll-type='talk' data-action='roguelike2' data-index='3'> ? </a>
+	<select name="system.skill3.TYPE" style="width: 100px;">
+  		{{selectOptions skillOptions selected=system.skill3.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.skill3.NAME" placeholder="skill 1" style="width: 100px;" value="{{system.skill3.NAME}}" /> 
+	<input type="text" name="system.skill3.NOTES" placeholder="effect notes" style="width: 300px;" value="{{system.skill3.NOTES}}" />
+	<a class='rollable' data-roll-type='talk' data-action='roll' 
+	data-label='{{system.skill3.TYPE}} | {{system.skill3.NAME}} | {{system.skill3.NOTES}}'> SHOW </a>
+</div>
+<div> 
+	<a class='rollable' data-roll-type='talk' data-action='roguelike2' data-index='4'> ? </a>
+	<select name="system.skill4.TYPE" style="width: 100px;">
+  		{{selectOptions skillOptions selected=system.skill4.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.skill4.NAME" placeholder="skill 1" style="width: 100px;" value="{{system.skill4.NAME}}" /> 
+	<input type="text" name="system.skill4.NOTES" placeholder="effect notes" style="width: 300px;" value="{{system.skill4.NOTES}}" />
+	<a class='rollable' data-roll-type='talk' data-action='roll' 
+	data-label='{{system.skill4.TYPE}} | {{system.skill4.NAME}} | {{system.skill4.NOTES}}'> SHOW </a>
+</div>
+
+
+<div> Sexmoves </div>
+
+<div> 
+	<input type="text" name="system.sex0.NAME" style="width: 80px;" value="{{system.sex0.NAME}}" /> 
+	<select name="system.sex0.NOTES" style="width: 366px;">
+  		{{selectOptions basicsexOptions selected=system.sex0.NOTES valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.sex0.DAMAGE" style="width: 60px;" value="{{system.sex0.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-label= "{{system.sex0.NAME}} | {{system.sex0.NOTES}}"
+		data-text="Cant Miss"
+		data-roll=""
+		data-text2="Damage"
+		data-roll2="{{system.sex0.DAMAGE}}+{{system.magTotal}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.sex0.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.sex0.NAME}}. {{system.sex0.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.sex0.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.sex0.DAMAGE}}+{{system.sex0.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.sex0.DAMAGE}}+{{system.sex0.DAMAGE}}+{{system.sex0.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.sex0.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div>
+	<a class='rollable' data-roll-type='talk' data-action='roguelike' data-index='1'> ? </a>
+	<select name="system.sex1.TYPE" style="width: 80px;">
+  		{{selectOptions sexOptions selected=system.sex1.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.sex1.NAME" placeholder="sexmove" style="width: 80px;" value="{{system.sex1.NAME}}" /> 
+	<input type="text" name="system.sex1.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.sex1.NOTES}}" />
+	<input type="text" name="system.sex1.DAMAGE" style="width: 60px;" value="{{system.sex1.DAMAGE}}" /> 
+	<select name="system.sex1.DMGTYPE" style="width: 80px;">
+  		{{selectOptions sexDMGOptions selected=system.sex1.DMGTYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-label= "{{system.sex1.NAME}} | {{system.sex1.TYPE}} | {{system.sex1.NOTES}} | {{system.sex1.DAMAGE}} {{system.sex1.DMGTYPE}}"
+		data-text="Cant Miss"
+		data-roll=""
+		data-text2="Damage"
+		data-roll2="{{system.sex1.DAMAGE}}+{{system.magTotal}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.sex1.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.sex1.NAME}}. {{system.sex1.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.sex1.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.sex1.DAMAGE}}+{{system.sex1.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.sex1.DAMAGE}}+{{system.sex1.DAMAGE}}+{{system.sex1.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.sex1.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+
+</div>
+
+<div>
+	<a class='rollable' data-roll-type='talk' data-action='roguelike' data-index='2'> ? </a>
+	<select name="system.sex2.TYPE" style="width: 80px;">
+  		{{selectOptions sexOptions selected=system.sex2.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.sex2.NAME" placeholder="sexmove" style="width: 80px;" value="{{system.sex2.NAME}}" /> 
+	<input type="text" name="system.sex2.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.sex2.NOTES}}" />
+	<input type="text" name="system.sex2.DAMAGE" style="width: 60px;" value="{{system.sex2.DAMAGE}}" /> 
+	<select name="system.sex2.DMGTYPE" style="width: 80px;">
+  		{{selectOptions sexDMGOptions selected=system.sex2.DMGTYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-label= "{{system.sex2.NAME}} | {{system.sex2.TYPE}} | {{system.sex2.NOTES}} | {{system.sex2.DAMAGE}} {{system.sex2.DMGTYPE}}"
+		data-text="Cant Miss"
+		data-roll=""
+		data-text2="Damage"
+		data-roll2="{{system.sex2.DAMAGE}}+{{system.magTotal}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.sex2.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.sex2.NAME}}. {{system.sex2.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.sex2.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.sex2.DAMAGE}}+{{system.sex2.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.sex2.DAMAGE}}+{{system.sex2.DAMAGE}}+{{system.sex2.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.sex2.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+</div>
+
+<div>
+	<a class='rollable' data-roll-type='talk' data-action='roguelike' data-index='3'> ? </a>
+	<select name="system.sex3.TYPE" style="width: 80px;">
+  		{{selectOptions sexOptions selected=system.sex3.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.sex3.NAME" placeholder="sexmove" style="width: 80px;" value="{{system.sex3.NAME}}" /> 
+	<input type="text" name="system.sex3.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.sex3.NOTES}}" />
+	<input type="text" name="system.sex3.DAMAGE" style="width: 60px;" value="{{system.sex3.DAMAGE}}" /> 
+	<select name="system.sex3.DMGTYPE" style="width: 80px;">
+  		{{selectOptions sexDMGOptions selected=system.sex3.DMGTYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-label= "{{system.sex3.NAME}} | {{system.sex3.TYPE}} | {{system.sex3.NOTES}} | {{system.sex3.DAMAGE}} {{system.sex3.DMGTYPE}}"
+		data-text="Cant Miss"
+		data-roll=""
+		data-text2="Damage"
+		data-roll2="{{system.sex3.DAMAGE}}+{{system.magTotal}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.sex3.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.sex3.NAME}}. {{system.sex3.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.sex3.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.sex3.DAMAGE}}+{{system.sex3.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.sex3.DAMAGE}}+{{system.sex3.DAMAGE}}+{{system.sex3.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.sex3.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+</div>
+
+<div>
+	<a class='rollable' data-roll-type='talk' data-action='roguelike' data-index='4'> ? </a>
+	<select name="system.sex4.TYPE" style="width: 80px;">
+  		{{selectOptions sexOptions selected=system.sex4.TYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.sex4.NAME" placeholder="sexmove" style="width: 80px;" value="{{system.sex4.NAME}}" /> 
+	<input type="text" name="system.sex4.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.sex4.NOTES}}" />
+	<input type="text" name="system.sex4.DAMAGE" style="width: 60px;" value="{{system.sex4.DAMAGE}}" /> 
+	<select name="system.sex4.DMGTYPE" style="width: 80px;">
+  		{{selectOptions sexDMGOptions selected=system.sex4.DMGTYPE valueAttr="value" labelAttr="label"}}
+	</select>
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-label= "{{system.sex4.NAME}} | {{system.sex4.TYPE}} | {{system.sex4.NOTES}} | {{system.sex4.DAMAGE}} {{system.sex4.DMGTYPE}}"
+		data-text="Cant Miss"
+		data-roll=""
+		data-text2="Damage"
+		data-roll2="{{system.sex4.DAMAGE}}+{{system.magTotal}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.sex4.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-label= "{{system.sex4.NAME}}. {{system.sex4.NOTES}}"
+		data-text="Extra"
+		data-roll="{{system.sex4.DAMAGE}}"
+		data-text2="Quick"
+		data-roll2="{{system.sex4.DAMAGE}}+{{system.sex4.DAMAGE}}"
+		data-text3="Rapid"
+		data-roll3="{{system.sex4.DAMAGE}}+{{system.sex4.DAMAGE}}+{{system.sex4.DAMAGE}}"
+		data-text4="+1 Hit"
+		data-roll4="{{system.sex4.DAMAGE}}"
+		data-action='roll'> 
+		HIT 
+	</a>
+</div>
+
+<div> 
+	<select name="system.save5.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save5.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save5.VS" style="width: 90px;">
+  		{{selectOptions saveVSOptions selected=system.save5.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save5.NAME" placeholder="save 4" style="width: 80px;" value="{{system.save5.NAME}}" /> 
+	<input type="text" name="system.save5.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save5.NOTES}}" />
+	<input type="text" name="system.save5.DAMAGE" style="width: 60px;" value="{{system.save5.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-vs="{{system.save5.VS}}"
+		data-label= "DC [[7+{{system.save5Scaling}}+{{system.extTotal}}]] | {{system.save5.NAME}} | {{system.save5.NOTES}}"
+		data-text="Save DC"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save5.DAMAGE}}+{{system.save5Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save5.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+</div>
+
+<div> 
+	<select name="system.save6.HIT" style="width: 70px;">
+  		{{selectOptions saveDCOptions selected=system.save6.HIT valueAttr="value" labelAttr="label"}}
+	</select>
+	<select name="system.save6.VS" style="width: 90px;">
+  		{{selectOptions saveVSOptions selected=system.save6.VS valueAttr="value" labelAttr="label"}}
+	</select>
+	<input type="text" name="system.save6.NAME" placeholder="save 4" style="width: 80px;" value="{{system.save6.NAME}}" /> 
+	<input type="text" name="system.save6.NOTES" placeholder="keywords" style="width: 200px;" value="{{system.save6.NOTES}}" />
+	<input type="text" name="system.save6.DAMAGE" style="width: 60px;" value="{{system.save6.DAMAGE}}" /> 
+	<a class='rollable' 
+		data-roll-type="multi"
+		data-move="sex"
+		data-vs="{{system.save6.VS}}"
+		data-label= "DC [[7+{{system.save6Scaling}}+{{system.extTotal}}]] | {{system.save6.NAME}} | {{system.save6.NOTES}}"
+		data-text="Save DC"
+		data-roll="1d12"
+		data-text2="Damage"
+		data-roll2="{{system.save6.DAMAGE}}+{{system.save6Scaling2}}+{{system.atkTotal}}"
+		data-text3="Crit"
+		data-roll3="d12+{{system.preTotal}}+{{system.magTotal}}"
+		data-text4="Crit Dmg"
+		data-roll4="{{system.save6.DAMAGE}}+({{system.ferTotal}}*2)"
+		data-action='roll'> 
+		SEX 
+	</a>
+</div>
+
+</section>
