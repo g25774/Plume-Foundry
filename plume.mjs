@@ -1,6 +1,6 @@
 // Import character-sheet.
-import CharacterData from "./character.mjs";
-import ItemData from "./item.mjs";
+import CharacterData from "./models/character.mjs";
+import ItemData from "./models/item.mjs";
 
 const PLUME = {};
 
@@ -1015,10 +1015,10 @@ static async #onEditTokenArt(event, target) {
 
     // Define paths in arrays for easier management
     const filePaths = [
-      "systems/plume/modules/sex/name.txt",
-      "systems/plume/modules/sex/notes.txt",
-      "systems/plume/modules/sex/damage.txt",
-      "systems/plume/modules/sex/type.txt"
+      "systems/plume/data/sex/name.txt",
+      "systems/plume/data/sex/notes.txt",
+      "systems/plume/data/sex/damage.txt",
+      "systems/plume/data/sex/type.txt"
     ];
 
     const fieldPaths = [
@@ -1104,9 +1104,9 @@ static async #onEditTokenArt(event, target) {
 
     // Define paths in arrays for easier management
     const filePaths = [
-      "systems/plume/modules/skills/name.txt",
-      "systems/plume/modules/skills/notes.txt",
-      "systems/plume/modules/skills/type.txt"
+      "systems/plume/data/skills/name.txt",
+      "systems/plume/data/skills/notes.txt",
+      "systems/plume/data/skills/type.txt"
     ];
 
     const fieldPaths = [
@@ -1173,8 +1173,8 @@ static async #onEditTokenArt(event, target) {
 
     // Define paths in arrays for easier management
     const filePaths = [
-      "systems/plume/modules/edges/name.txt",
-      "systems/plume/modules/edges/notes.txt"
+      "systems/plume/data/edges/name.txt",
+      "systems/plume/data/edges/notes.txt"
     ];
 
     const fieldPaths = [
