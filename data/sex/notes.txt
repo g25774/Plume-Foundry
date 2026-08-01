@@ -160,16 +160,16 @@ Position. Deal SHOCK for 2 turns! (Position): Enemy ends their turn twice!
 (Risk 2): Enemy uses a Recoil Sexmove! You gain spirit equal to enemy recoil taken!
 Rapid. Unique Position. (Position): Add three extra hits and roll an impregnation check!
 Cannot deal breaks or remove Sleep! You take 14 Recoil! (Risk 6): Deal SLEEP for 2 turns!
-Toy. (Dominating, Risk 3): Until removed, victim has EXT-DOWN and can't use spells!
-Toy. (Dominating, Risk 3): Until removed, victim has ACC-DOWN and WILL-DOWN!
-Toy. (Dominating, Risk 3): Until removed, deal confirm at victim's turn start and end!
-Toy. (Dominating, Risk 4): Until removed, victim has SHOCK and TENDER!
-Toy. (Dominating, Risk 4): Until removed, victim has CURSE and BURN!
-Toy. (Dominating, Risk 4): Until removed, victim has CHARM and POISON!
-Toy. (Dominating, Risk 5): Until removed, victim has SHAME and TIMID!
-Toy. (Dominating, Risk 5): Until removed, victim has HORNY and DAZE!
-Toy. (Dominating, Risk 6): Until removed, victim attempt to remove this tool!
-Toy. (Dominating, Risk 2): Until removed, victim has CRIT-UP and WILL-DOWN!
+Focus. (Risk 1): Deal RES-DOWN for 1 turn! During Focus, Target cannot speak or use spells!
+Focus. (Risk 1): Deal SHOCK for 2 turns! During Focus, Target has EROTIC!
+Focus. (Risk 1): Deal HORNY for 1 turn! During Focus, Target has DAZE!
+Focus. (Risk 1): Deal POISON for 2 turns! During Focus, Target has WET!
+Focus. (Risk 3): During Focus, Target has UNDEAD and REGEN!
+Focus. (Risk 3): During Focus, you gain RES-UP and REGEN!
+Focus. (Risk 3): During Focus, you order Target to take an extra action at turn end!
+Immutable Focus. (Risk 6): At turn end, deals a "Rapid" confirm to your target!
+Immutable Focus. (Risk 6): At turn end, you must use a sexmove on an enemy or yourself!
+Immutable Focus. (Risk 6): During Focus, recoil sexmoves also repeat this move for free!
 Deals a stack of PETRIFY(unique). At 9 stacks of PETRIFY, enemy is instantly DEFEATED~!
 Hold. (Risk 4): You take 6 Recoil! Deals PIN and SHAME for 2 turns! (Hold): Repeat this!
 Quick. Position. You take 6 Recoil twice! Deals PIN! (Position): Deals additional crit damage!
