@@ -59,8 +59,16 @@
 				data-roll3="2d6+7" 
 				data-action='roll'> !STRIP
 			</a>
+
+			<span> ________ </span>
+
+			<a class='rollable' data-roll-type='talk' data-action='roll' 
+			data-label='<b>COIN FLIP</b> | Action. You flip a coin! [[1d2]]'> [?]COIN FLIP </a>
+
 		</div>
+
 	</div>
+
 	<div class='bold'> -
 		<div class='bold form-stack2'> 
 
@@ -73,11 +81,11 @@
 				data-roll-type="multi"
 				data-move="save"
 				data-vs="mag"
-				data-label= "DC [[7+{{system.magTotal}}+{{system.extTotal}}]] <b>Tease</b> | Reaction. Usable in and out of Grapple. Enemy(5ft) suffers (MAG): Caster uses a Teasing or Punish sexmove on you!"
-				data-text="Save"
-				data-roll="1d12"
-				data-text2=""
-				data-roll2=""
+				data-label= "<b>Tease</b> | Reaction. Usable in and out of Grapple. Enemy(5ft) suffers (MAG): Caster uses a Teasing or Punish sexmove on you!"
+				data-text="DC"
+				data-roll="7+{{system.magTotal}}+{{system.extTotal}}"
+				data-text2="Save"
+				data-roll2="1d12"
 				data-text3=""
 				data-roll3=""
 				data-text4=""
@@ -119,10 +127,10 @@
 			data-label='<b>ATTACK</b> | Action. Target(5ft) gain 1 Fatigue and regain [[6d6+7]] Spirit. Provokes Exploit. If out of combat, regain all Spirit instead!'> Recover[1] </a>
 
 			<a class='rollable' data-roll-type='talk' data-action='roll' 
-			data-label='<b>ATTACK</b> | You regain all of your Spirit! You gain EAGER! If you are in combat, heal [[2d6+7]] Spirit instead!'> Fantasize </a>
+			data-label='<b>ATTACK</b> | You regain all of your Spirit! You gain EAGER! If you are in combat, heal [[2d6+7]] Spirit instead!'> Fantasize[///] </a>
 
 			<a class='rollable' data-roll-type='talk' data-action='roll' 
-			data-label='<b>ATTACK</b> | You clear all Arousal Debuffs! This takes time, anyone who sneaks in on you may ambush you without making any checks!'> Masturbate </a>
+			data-label='<b>ATTACK</b> | You clear all Arousal Debuffs! This takes time, anyone who sneaks in on you may ambush you without making any checks!'> Masturbate[~] </a>
 			
 
 		</div>
